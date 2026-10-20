@@ -1,0 +1,42 @@
+synapse universe 1002 (FN 489) | non-synapse universe 6431 (FP 147)
+
+[CALIBRATION on FN]
+  synthetic pos (80% FN): z=+2.9 (want >3)
+  random neg (n=50,8 draws): max|z|=1.0 (want <3)
+  innexin->GJ positive control: 12 of 14 homotypic-innexin rules z>2 (machinery detects real code)
+
+============================================================================
+PART A — SLIT-ROBO single pre-registered hypothesis (FN not FP)
+============================================================================
+  FN (missed synapses):     deg-z=+25.8  expr-perm-z=+3.5  enrich=+0.286 n=50
+  FP (spurious predictions): deg-z=-0.5  expr-perm-z=0.5  enrich=+0.005 n=328
+  => LOCKS: survives both nulls on FN, correct direction (FN>>FP) = first BANKABLE molecular signal in the residual
+
+============================================================================
+PART B — repulsive guidance as a CLASS vs attractive (pre-registered contrast)
+============================================================================
+repulsive pairs (FN, dual null):
+   slt-1~sax-3      deg-z=+25.8 expr-perm-z=3.5 n=50
+   unc-6~unc-5      deg-z=+0.4 expr-perm-z=-0.5 n=63
+   mab-20~plx-1     deg-z=-3.7 expr-perm-z=-0.8 n=737
+   mab-20~plx-2     deg-z=+0.7 expr-perm-z=1.6 n=760
+   smp-1~plx-1      deg-z=-1.4 expr-perm-z=0.0 n=164
+   smp-2~plx-1      deg-z=+2.0 expr-perm-z=0.8 n=189
+   smp-1~plx-2      deg-z=-1.7 expr-perm-z=0.4 n=175
+   smp-2~plx-2      deg-z=+2.2 expr-perm-z=1.3 n=222
+   efn-2~vab-1      deg-z=+0.1 expr-perm-z=1.0 n=498
+   efn-4~vab-1      deg-z=+1.1 expr-perm-z=0.3 n=286
+attractive pairs (FN, dual null):
+   unc-6~unc-40     deg-z=+1.3 expr-perm-z=0.4 n=313
+   syg-2~syg-1      deg-z=-1.4 expr-perm-z=-2.7 n=535
+   nrx-1~nlg-1      deg-z=-2.6 expr-perm-z=-2.1 n=743
+   sax-7~sax-7      deg-z=+30.5 expr-perm-z=-1.0 n=991
+   hmr-1~hmr-1      deg-z=-2.2 expr-perm-z=-0.4 n=955
+   rig-6~rig-6      deg-z=+3.4 expr-perm-z=0.4 n=238
+
+AGGREGATE repulsive-complementarity  -> FN: deg-z=-1.4 enrich=+0.012 (marks 960 syn)
+Traceback (most recent call last):
+  File "../accounting/slitrobo_lock_and_class.py", line 142, in <module>
+    P(f"AGGREGATE attractive-complementarity -> FN: deg-z={za:+.1f} enrich={oaa:+.3f} (marks {na} syn)")
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported format string passed to NoneType.__format__

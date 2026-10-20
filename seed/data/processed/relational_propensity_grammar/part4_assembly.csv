@@ -1,0 +1,5 @@
+block,E,H_bits,H_deg_mean,H_proc_mean,MDL_bits_edge,MDL_deg_mean,MDL_proc_mean,N,adult,mean_repro_nonreused,mean_repro_reused,mwu_p_greater,n_nonreused,n_reused,proc_Ematch,spearman_p,spearman_rho,top3_frac,triads,verdict,zH_deg,zH_proc,zMDL_deg,zMDL_proc
+assembly_vs_nulls,2202,2.7347,2.1302,2.1144,12.631,14.0461,13.0364,221,7,,,,,,2202.0,,,0.6878,35319,LOW-assembly (more reuse than BOTH nulls),22.248,4.217,-13.071,-3.391
+assembly_vs_nulls,2186,2.7749,2.1303,2.1178,11.3979,12.4716,13.0653,219,8,,,,,,2186.0,,,0.6654,33969,LOW-assembly (more reuse than BOTH nulls),22.345,4.928,-14.37,-15.82
+readout_vs_specifier,,,,,,,,,7,2.759,4.12,0.002182978417736912,29,2173,,0.1286836102978534,-0.0324,,,,,,,
+readout_vs_specifier,,,,,,,,,8,3.462,4.15,0.07407481035598502,26,2160,,0.1481473668225894,0.0309,,,,,,,

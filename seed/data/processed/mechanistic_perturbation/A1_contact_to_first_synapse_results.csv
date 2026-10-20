@@ -1,0 +1,7 @@
+test,metric,value,note
+first_stage_distribution,counts,L1=1420 L2=353 L3=257 adult=823,among 2853 contacting pairs
+test2_predict_early_L1,neuron-disjoint AUC (contact-area+birth+NT+modality),0.740,base rate 0.50 - conversion ordered not stochastic
+test2_contact_area_alone,neuron-disjoint AUC,0.621,upstream features add over contact area
+test3_within_contactarea_terc1_low,strong-core% L1-first vs adult-first,29.4 vs 18.0,early establishment lifts within stratum
+test3_within_contactarea_terc2_mid,strong-core% L1-first vs adult-first,57.5 vs 25.7,~2.2x
+test3_within_contactarea_terc3_high,strong-core% L1-first vs adult-first,76.3 vs 34.3,~2.2x - timing effect independent of contact area

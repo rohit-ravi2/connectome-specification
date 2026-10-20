@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "n_pairs": 8205,
+    "n_neurons": 196,
+    "allom_R2_insample": 0.0825,
+    "reg_R2_F0": 0.0088,
+    "reg_R2_full": 0.0964,
+    "timing_gain": 0.0314,
+    "identity_gain": 0.0331,
+    "morph_only_R2": 0.0369
+  },
+  "coef": {
+    "intercept": 8.462704885633267,
+    "log_dega": -11.718804267328485,
+    "log_degb": -11.324514187961269,
+    "log_degsum": 1.4125068476809555,
+    "log_degprod": 1.2048751705649328,
+    "log_degmin": 10.502012267325199,
+    "log_degmax": 6.757868935853374,
+    "same_nt": 0.06621722448471125,
+    "same_mod": 0.26896005572150916,
+    "same_family": 0.16113971899840365,
+    "both_head_motor": 0.2182131421542523,
+    "homolog": 0.16113971899835927
+  },
+  "nulls": [
+    {
+      "test": "timing_gain_over_F0",
+      "real": 0.0314,
+      "null_mean": 0.0041,
+      "null_std": 0.0035,
+      "z": 7.7
+    },
+    {
+      "test": "identity_gain_over_F0F1",
+      "real": 0.0331,
+      "null_mean": 0.0288,
+      "null_std": 0.0018,
+      "z": 2.32
+    }
+  ]
+}

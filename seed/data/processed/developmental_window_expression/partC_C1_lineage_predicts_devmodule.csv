@@ -1,0 +1,6 @@
+module,r2_birth_only,r2_birth+lineage,n_classes
+adhesion_recognition,-0.1429,0.1925,58
+axon_guidance,-0.0447,0.3005,58
+nt_fate_receptor,-0.1481,-0.1711,58
+synaptogenesis,-0.163,-0.1513,58
+terminal_selector_identity,-0.0854,0.0066,58

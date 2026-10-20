@@ -1,0 +1,48 @@
+Cook chem neurons 446 | with lineage path 211
+N=211 neurons, E=2784 directed edges, M=44310 possible, density p=0.0628
+
+-- CONFIG (Chung-Lu, random same-degree) data 13268 + params 3258 = 16526 bits
+
+== LINEAGE-RULE MODELS (bits) ==
+-- LINEAGE-only (tree/depth/founder/birth): in-sample data 14642 +param 62 = 14703 | CV(neuron-grouped) 14674
+
+== + CONTACT (anatomy-derived, PARTIAL CHEAT flagged) ==
+-- LINEAGE + adult contact area: in-sample data 10026 +param 69 = 10095 | CV(neuron-grouped) 10058
+
+== CONFIG(degree)+LINEAGE (does lineage add over degree?) ==
+-- degree + lineage: in-sample data 13137 +param 69 = 13206 | CV(neuron-grouped) 13161
+degree-only reference:
+-- degree-only (Chung-Lu as logistic): in-sample data 13281 +param 8 = 13288 | CV(neuron-grouped) 13281
+
+======================================================================
+DESCRIPTION LENGTH SUMMARY (bits) for Cook chem, N=211 E=2784
+======================================================================
+  RAW adjacency (1 bit/cell)                44310      15.92 bits/edge   
+  ER entropy (density only)                 15010       5.39 bits/edge   structure-free
+  zlib on packed adjacency                  17840       6.41 bits/edge   generic
+  lzma on packed adjacency                  18592       6.68 bits/edge   generic
+  lzma on full uint8 matrix                 21344       7.67 bits/edge   generic
+  CONFIG = random same-degree               16526       5.94 bits/edge   RANDOM baseline (3)
+    config data-only                        13268       4.77 bits/edge   
+  LINEAGE-only in-sample                    14703       5.28 bits/edge   generative, fit
+  LINEAGE-only CV(neuron)                   14674       5.27 bits/edge   generative, held-out
+  LINEAGE+CONTACT in-sample                 10095       3.63 bits/edge   contact=anatomy
+  LINEAGE+CONTACT CV                        10058       3.61 bits/edge   contact=anatomy
+  degree+lineage CV                         13161       4.73 bits/edge   
+  degree-only CV                            13281       4.77 bits/edge   = config-ish
+
+  lineage TREE encoding cost (lzma on paths): 12128 bits  (57.5/neuron)
+  => LINEAGE-only CV + tree = 26802 bits total generative code
+
+======================================================================
+(5) PARTIAL — per-edge surprisal under LINEAGE-only CV model
+  edges: mean surprisal 3.89 bits (vs -log2(density)=3.99)
+  best-predicted 25% edges: mean tree_dist 11.3, same_branch frac 0.97
+  worst-predicted 25% edges: mean tree_dist 18.7, same_branch frac 0.53
+
+  Witvliet stability (of Cook edges also in Witvliet):
+    STABLE (>=6/8 stages, n=620): mean surprisal 3.69 bits
+    VARIABLE (<=2 stages, n=581): mean surprisal 3.85 bits
+    -> stable edges MORE lineage-compressible
+
+DONE.

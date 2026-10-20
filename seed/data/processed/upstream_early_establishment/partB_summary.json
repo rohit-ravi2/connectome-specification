@@ -1,0 +1,211 @@
+{
+  "n_master": 2853,
+  "n_cov": 2853,
+  "baseline_dims": 33,
+  "mol_dims": 29,
+  "main": [
+    {
+      "target": "first_synapse=L1",
+      "key": "T_first_L1",
+      "pos": 1420,
+      "rate": 0.498,
+      "auc_baseline": 0.7396,
+      "sd_baseline": 0.0068,
+      "auc_mol_alone": 0.6909,
+      "auc_base_plus_mol": 0.7832,
+      "sd_base_plus_mol": 0.0191,
+      "mol_ADD": 0.0436
+    },
+    {
+      "target": "L1_reproducible(>=2/4)",
+      "key": "T_L1_repro",
+      "pos": 859,
+      "rate": 0.301,
+      "auc_baseline": 0.7989,
+      "sd_baseline": 0.0185,
+      "auc_mol_alone": 0.75,
+      "auc_base_plus_mol": 0.8335,
+      "sd_base_plus_mol": 0.0101,
+      "mol_ADD": 0.0346
+    },
+    {
+      "target": "preadult_persistent(>=2grp)",
+      "key": "T_preadult_persist",
+      "pos": 1151,
+      "rate": 0.403,
+      "auc_baseline": 0.7403,
+      "sd_baseline": 0.0126,
+      "auc_mol_alone": 0.7018,
+      "auc_base_plus_mol": 0.7897,
+      "sd_base_plus_mol": 0.004,
+      "mol_ADD": 0.0494
+    }
+  ],
+  "nulls": [
+    {
+      "target": "first_synapse=L1",
+      "category": "adhesion_recognition",
+      "n_genes": 91,
+      "real_ADD": 0.0089,
+      "null_mean": 0.0046,
+      "null_sd": 0.003,
+      "z": 1.46,
+      "p_ge": 0.12,
+      "beats_null": "no"
+    },
+    {
+      "target": "first_synapse=L1",
+      "category": "axon_guidance",
+      "n_genes": 110,
+      "real_ADD": 0.0065,
+      "null_mean": 0.0065,
+      "null_sd": 0.0025,
+      "z": 0.001,
+      "p_ge": 0.44,
+      "beats_null": "no"
+    },
+    {
+      "target": "first_synapse=L1",
+      "category": "nt_fate_receptor",
+      "n_genes": 146,
+      "real_ADD": 0.0118,
+      "null_mean": 0.0054,
+      "null_sd": 0.0039,
+      "z": 1.672,
+      "p_ge": 0.08,
+      "beats_null": "no"
+    },
+    {
+      "target": "first_synapse=L1",
+      "category": "synaptogenesis",
+      "n_genes": 186,
+      "real_ADD": 0.0101,
+      "null_mean": 0.0055,
+      "null_sd": 0.0023,
+      "z": 2.002,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "first_synapse=L1",
+      "category": "terminal_selector_identity",
+      "n_genes": 58,
+      "real_ADD": -0.0061,
+      "null_mean": 0.0024,
+      "null_sd": 0.0038,
+      "z": -2.232,
+      "p_ge": 1.0,
+      "beats_null": "no"
+    },
+    {
+      "target": "L1_reproducible(>=2/4)",
+      "category": "adhesion_recognition",
+      "n_genes": 91,
+      "real_ADD": 0.0058,
+      "null_mean": -0.0017,
+      "null_sd": 0.0012,
+      "z": 6.299,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "L1_reproducible(>=2/4)",
+      "category": "axon_guidance",
+      "n_genes": 110,
+      "real_ADD": 0.003,
+      "null_mean": -0.0009,
+      "null_sd": 0.0023,
+      "z": 1.753,
+      "p_ge": 0.08,
+      "beats_null": "no"
+    },
+    {
+      "target": "L1_reproducible(>=2/4)",
+      "category": "nt_fate_receptor",
+      "n_genes": 146,
+      "real_ADD": 0.0093,
+      "null_mean": -0.0024,
+      "null_sd": 0.0014,
+      "z": 8.264,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "L1_reproducible(>=2/4)",
+      "category": "synaptogenesis",
+      "n_genes": 186,
+      "real_ADD": 0.004,
+      "null_mean": -0.0015,
+      "null_sd": 0.0017,
+      "z": 3.189,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "L1_reproducible(>=2/4)",
+      "category": "terminal_selector_identity",
+      "n_genes": 58,
+      "real_ADD": -0.0041,
+      "null_mean": -0.0009,
+      "null_sd": 0.0023,
+      "z": -1.413,
+      "p_ge": 0.92,
+      "beats_null": "no"
+    },
+    {
+      "target": "preadult_persistent(>=2grp)",
+      "category": "adhesion_recognition",
+      "n_genes": 91,
+      "real_ADD": 0.0164,
+      "null_mean": 0.0011,
+      "null_sd": 0.0026,
+      "z": 5.965,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "preadult_persistent(>=2grp)",
+      "category": "axon_guidance",
+      "n_genes": 110,
+      "real_ADD": 0.0146,
+      "null_mean": 0.0024,
+      "null_sd": 0.0026,
+      "z": 4.709,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "preadult_persistent(>=2grp)",
+      "category": "nt_fate_receptor",
+      "n_genes": 146,
+      "real_ADD": 0.017,
+      "null_mean": -0.0003,
+      "null_sd": 0.0025,
+      "z": 7.032,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "preadult_persistent(>=2grp)",
+      "category": "synaptogenesis",
+      "n_genes": 186,
+      "real_ADD": 0.0114,
+      "null_mean": 0.0018,
+      "null_sd": 0.0022,
+      "z": 4.436,
+      "p_ge": 0.0,
+      "beats_null": "YES"
+    },
+    {
+      "target": "preadult_persistent(>=2grp)",
+      "category": "terminal_selector_identity",
+      "n_genes": 58,
+      "real_ADD": -0.0015,
+      "null_mean": -0.0002,
+      "null_sd": 0.0029,
+      "z": -0.449,
+      "p_ge": 0.64,
+      "beats_null": "no"
+    }
+  ]
+}

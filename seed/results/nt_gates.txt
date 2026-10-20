@@ -1,0 +1,4 @@
+Gate1 edge-CV: geom AUC 0.8284 bits3079 Brier.1357 ECE.0140 | geom+NT AUC 0.8431 bits2947 Brier.1283 ECE.0148 | dAUC+0.0147 z13.1
+Gate2 incident(>=1 novel): geom0.8306->NT0.8429 dAUC+0.0119±0.0038 perm-0.0036 SURVIVES
+Gate2 block(both novel): geom0.8096->NT0.8204 dAUC+0.0118±0.0165 perm-0.0058 (positive,underpowered)
+NT label mess: 'ACh(unc-17..)'2 + 'Acetylcholine(ACh)'86 (two ACh labels), Glu54, Unknown22, GABA6, DA6, OA/5HT/TA 2 each

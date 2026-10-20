@@ -1,0 +1,4 @@
+model,AUC,dispersion_ratio
+contact+NT+topology,0.8008,0.5391
++relational(cross-animal),0.8859,0.599
+degree-preserving-null(relational),,0.5076

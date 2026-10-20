@@ -1,0 +1,13 @@
+target,feature_set,neuron_disjoint_AUC,sd
+L1_reproducible(>=2/4),contact-topology,0.7306,0.0149
+L1_reproducible(>=2/4),contact+birth+lineage,0.7943,0.0063
+L1_reproducible(>=2/4),contact+NT,0.7467,0.0163
+L1_reproducible(>=2/4),contact+birth+lineage+NT,0.7978,0.0142
+preadult_persistent(>=2grp),contact-topology,0.7094,0.0246
+preadult_persistent(>=2grp),contact+birth+lineage,0.7406,0.0151
+preadult_persistent(>=2grp),contact+NT,0.7168,0.0218
+preadult_persistent(>=2grp),contact+birth+lineage+NT,0.7474,0.0145
+first_synapse=L1,contact-topology,0.6535,0.0225
+first_synapse=L1,contact+birth+lineage,0.7278,0.0147
+first_synapse=L1,contact+NT,0.6682,0.0167
+first_synapse=L1,contact+birth+lineage+NT,0.7401,0.018

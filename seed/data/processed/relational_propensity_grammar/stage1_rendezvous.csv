@@ -1,0 +1,5 @@
+test,static,+timing
+canalization_AUC,0.859,0.9366
+dispersion_ratio,0.5515,0.9387
+dispersion_AUC,0.7994,0.9725
+logit_first_contact_stage_beta,,0.1288

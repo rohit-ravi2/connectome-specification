@@ -1,0 +1,10 @@
+{
+  "n_pairs": 2853,
+  "n_neurons": 178,
+  "target_rates": {
+    "T_L1_repro": 0.301,
+    "T_preadult_persist": 0.403,
+    "T_first_L1": 0.498
+  },
+  "same_founder_rate": 0.974
+}

@@ -1,0 +1,4 @@
+target,AUC_C(M0),AUC_CL(M1),AUC_CD(M2),AUC_CLD(M3),AUC_CLDres(M4),AUC_L_only,AUC_D_only,lineage_added_over_contact(eL),lineage_added_over_contact+expr(eL|D),lineage_effect_overlapping_expression,expression_added_over_contact(eD),expression_added_over_contact+lineage(eD|L),dev_residual_direct(M4-M1),rawL_over_chance,lineage_overlapping_contact
+T_L1_repro,0.7394,0.7426,0.7511,0.7495,0.7491,0.5621,0.6279,0.0032,-0.0016,0.0048,0.0117,0.0069,0.0065,0.0621,0.059
+T_preadult_persist,0.7151,0.7169,0.7265,0.7241,0.7238,0.5406,0.6071,0.0018,-0.0024,0.0042,0.0114,0.0072,0.0069,0.0406,0.0388
+T_first_L1,0.6545,0.6471,0.6545,0.6488,0.6485,0.5508,0.5586,-0.0074,-0.0057,-0.0017,-0.0,0.0016,0.0014,0.0508,0.0582

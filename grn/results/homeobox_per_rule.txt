@@ -1,0 +1,36 @@
+==============================================================================
+POSITIVE CONTROLS (known terminal-selector -> effector battery)
+==============================================================================
+  unc-30  -> unc-25   (GABA): z=+2.8 enrich=+0.329 (X in 5 classes)
+  unc-30  -> unc-47   (GABA): z=+1.3 enrich=+0.203 (X in 5 classes)
+  unc-30  -> unc-46   (GABA): z=+0.3 enrich=+0.045 (X in 5 classes)
+  mec-3   -> mec-4    (touch): z=+5.8 enrich=+0.473 (X in 10 classes)  <-- HIT
+  mec-3   -> mec-10   (touch): z=+7.0 enrich=+0.583 (X in 10 classes)  <-- HIT
+  ttx-3   -> cho-1    (AIY-ACh): z=-0.8 enrich=-0.126 (X in 7 classes)
+  ttx-3   -> unc-17   (AIY-ACh): z=-1.0 enrich=-0.186 (X in 7 classes)
+
+==============================================================================
+FULL SCAN — all homeobox x effector rules
+==============================================================================
+  total rules 29250 | z>4: 189 (chance ~1) | z>3: 580 (chance ~39)
+  top rules:
+    unc-86  -> unc-86    z=+11.3 enrich=+0.999  [DEG_ENaC]
+    ceh-57  -> lgc-20    z=+8.4 enrich=+0.825  [LGIC_receptor]
+    hmbx-1  -> mec-10    z=+8.3 enrich=+0.967  [DEG_ENaC]
+    ceh-57  -> anoh-1    z=+8.1 enrich=+0.771  [Cl_channel]
+    ceh-8   -> glr-3     z=+7.4 enrich=+0.453  [LGIC_receptor]
+    ceh-10  -> inx-13    z=+7.3 enrich=+0.429  [innexin_gap]
+    ceh-23  -> dmsr-9    z=+7.0 enrich=+0.502  [GPCR_metabotropic_receptor]
+    mec-3   -> mec-10    z=+6.9 enrich=+0.583  [DEG_ENaC]
+    ceh-57  -> del-2     z=+6.7 enrich=+0.755  [DEG_ENaC]
+    ceh-79  -> lgc-20    z=+6.7 enrich=+0.642  [LGIC_receptor]
+    ceh-54  -> tax-4     z=+6.6 enrich=+0.552  [CNG]
+    ceh-36  -> cng-3     z=+6.3 enrich=+0.853  [CNG]
+    ceh-79  -> anoh-1    z=+6.3 enrich=+0.587  [Cl_channel]
+    ceh-10  -> inx-12    z=+6.3 enrich=+0.423  [innexin_gap]
+    ceh-23  -> anoh-1    z=+6.2 enrich=+0.550  [Cl_channel]
+
+==============================================================================
+VERDICT: positive-control HITS (z>3): 2 | scan z>4 enrichment: 189 vs ~1 chance
+  -> PER-RULE RECOVERS TERMINAL-SELECTOR RULES (regulatory layer real at discrete level)
+==============================================================================

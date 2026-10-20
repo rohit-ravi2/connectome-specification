@@ -1,0 +1,10 @@
+glutamate-source edges: 254 | negative: 22 (9%)
+inhibitory-fraction distribution: min 0.00 med 0.44 max 1.00
+
+Spearman(inhibitory-fraction, functional weight) rho=+0.094 p=0.135  (expect NEGATIVE)
+neg-edge rate: high-inhibitory-fraction 0.07 (9/127) vs low 0.10 (13/127)
+neg-rate diff (hi-lo inhibitory): obs -0.031  null +0.000±0.035  z=-0.9  p=0.872
+
+========================================================================
+VERDICT: NT x receptor does NOT predict functional sign beyond base rate — bulk class receptor load is too coarse a proxy for per-synapse sign (or genuinely no signal)
+========================================================================

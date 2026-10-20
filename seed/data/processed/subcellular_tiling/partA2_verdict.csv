@@ -1,0 +1,2 @@
+hm_nonsyn_rate,lr_concordance,family_shuffle_p,same_minus_cross_nonsyn,nt_shuffle_p,syn_gap_same_minus_diff_nt,same_nt_nonsyn,diff_nt_nonsyn,same_nt_synrate,diff_nt_synrate,verdict
+0.8374,0.9362,0.836,-0.0148,0.0,-0.3233,0.8821,0.5588,0.1179,0.4412,PASS

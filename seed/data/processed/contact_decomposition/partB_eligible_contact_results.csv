@@ -1,0 +1,6 @@
+test,feature_set,neuron_disjoint_AUC
+eligibility_restricted_T_first_L1,L1-contact-area,0.7177
+eligibility_restricted_T_first_L1,birthtime-diff-ALONE,0.5539
+eligibility_restricted_T_first_L1,L1-area+budget+persist,0.7304
+eligibility_restricted_T_first_L1,L1-area + birthdiff,0.7288
+eligibility_restricted_T_first_L1,L1-area+budget+persist + birthdiff,0.7357

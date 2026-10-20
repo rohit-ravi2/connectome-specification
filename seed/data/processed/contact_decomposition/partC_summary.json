@@ -1,0 +1,93 @@
+{
+  "C1": [
+    {
+      "target": "T_first_L1",
+      "era": "L1",
+      "n_test": 1632,
+      "n_pos": 258,
+      "auc_area": 0.8916,
+      "auc_topo": 0.7196,
+      "auc_area_topo": 0.8954,
+      "delta_topo_over_area": 0.0037
+    },
+    {
+      "target": "T_preadult_persist",
+      "era": "L1",
+      "n_test": 1632,
+      "n_pos": 223,
+      "auc_area": 0.8819,
+      "auc_topo": 0.7202,
+      "auc_area_topo": 0.8783,
+      "delta_topo_over_area": -0.0036
+    },
+    {
+      "target": "adult_strong_core1",
+      "era": "AD",
+      "n_test": 1632,
+      "n_pos": 223,
+      "auc_area": 0.9277,
+      "auc_topo": 0.7307,
+      "auc_area_topo": 0.927,
+      "delta_topo_over_area": -0.0006
+    }
+  ],
+  "delta_ci": {
+    "T_first_L1": [
+      -0.0026,
+      0.0029,
+      0.0083
+    ],
+    "T_preadult_persist": [
+      -0.0134,
+      -0.0048,
+      -0.0006
+    ],
+    "adult_strong_core1": [
+      -0.0036,
+      0.0027,
+      0.0074
+    ]
+  },
+  "C2b": "[{'target': 'T_first_L1', 'insample_auc_area': 0.9018, 'insample_auc_area_cn': 0.9028, 'delta': 0.001}, {'target': 'T_preadult_persist', 'insample_auc_area': 0.9007, 'insample_auc_area_cn': 0.9009, 'delta': 0.0002}]",
+  "C3": {
+    "syn_rankfrac_med": 0.18181818181818182,
+    "nonsyn_rankfrac_med": 0.6060606060606061,
+    "mwu_p_synlower": 1.457268991474325e-294,
+    "spearman_areafrac_syn": 0.46800332067102784,
+    "spearman_areafrac_syn_p": 2.41344619061189e-302,
+    "spearman_entropy_synfrac": 0.37463262171548195
+  },
+  "C4_topo_resid_auc": 0.6328,
+  "C4_top_topo_resid_corr": [
+    {
+      "feature": "AD_ra",
+      "spearman_vs_resid": -0.206,
+      "p": 2.6135834426741858e-79
+    },
+    {
+      "feature": "AD_aa",
+      "spearman_vs_resid": -0.2031,
+      "p": 3.714775900264116e-77
+    },
+    {
+      "feature": "AD_cn",
+      "spearman_vs_resid": -0.2013,
+      "p": 8.913400625730686e-76
+    },
+    {
+      "feature": "AD_jac",
+      "spearman_vs_resid": -0.1973,
+      "p": 7.79648155301424e-73
+    },
+    {
+      "feature": "AD_deg_min",
+      "spearman_vs_resid": -0.1656,
+      "p": 1.5060909626331178e-51
+    },
+    {
+      "feature": "AD_deg_prod",
+      "spearman_vs_resid": -0.1655,
+      "p": 1.849280300131979e-51
+    }
+  ]
+}

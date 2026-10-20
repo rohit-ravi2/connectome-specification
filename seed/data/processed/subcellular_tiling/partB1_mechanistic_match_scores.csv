@@ -1,0 +1,10 @@
+family,contact_present,local_suppression,same_NT_or_class,motor_domain,developmental_window,predicts_ectopic_synapses,subcellular_not_class_expression,explains_class_expression_null,total,notes
+sema_plexin(smp-1/smp-2/plx-1),1.0,1.0,1.0,0.5,1.0,1.0,1.0,1.0,7.5,"UNIQUE combo: contact-dep + LOCAL PRESYNAPTIC suppression + same-class same-NT neighbor tiling + ectopic-if-lost. motor=0.5 (DA trunk, not head SMB/SIA residual). BEST aligned but NOT proven in residual cells"
+syg_1_2,1.0,0.5,0.5,0.0,1.0,1.0,1.0,0.5,5.5,"subcellular + ectopic + suppressive arm, but ATTRACTIVE guidepost (epithelial) logic; not neighbor-neighbor"
+netrin(unc-6/40/5),1.0,1.0,0.5,0.0,1.0,0.0,1.0,0.5,5.0,"genuine contact-triggered mutual repulsion/self-avoidance, but DENDRITE morphology; does not suppress presynapse"
+igsf_rig,0.5,0.0,0.5,0.0,0.5,0.0,0.5,0.5,2.5,adhesive/fasciculation IgSF; no presynapse suppression; residual B2 already NULL for IgSF
+robo_slit(sax-3/slt-1),1.0,0.5,0.5,0.0,1.0,0.0,0.5,0.5,4.0,repulsive guidance; no direct presynaptic-suppression evidence
+cadherin(fmi-1/cdh),1.0,0.5,0.5,0.0,1.0,0.0,0.5,0.5,4.0,contact self-avoidance (F-actin); morphological not presynaptic
+nrx_nlg,0.5,1.0,0.5,0.5,0.5,0.0,0.5,0.5,4.0,"inhibitory/retrograde but trans-synaptic partner-partner, wrong geometry for neighbor avoidance"
+nlr-1(caspr),0.5,0.0,0.5,0.0,0.5,0.0,0.5,0.5,2.5,adhesion; no suppression evidence
+oig-1_igsf_suppressor,0.0,1.0,0.5,0.5,1.0,0.5,0.5,0.5,4.5,"IgSF that suppresses synapse formation (right SIGN) but temporal DD-remodeling, not spatial neighbor-tiling"

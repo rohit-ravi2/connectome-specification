@@ -1,0 +1,7 @@
+kind,var,r2,d_reg_nocontact,d_reg_withcontact,mediated_fraction
+reg_predicts_contact,contact_cos,0.05280396594015244,,,
+reg_predicts_contact,contact_area,0.016421055671962437,,,
+reg_predicts_contact,contact_cn,0.17628857887494956,,,
+mediation,L1_reproducible,,0.03374203243632046,0.00595796090400047,0.8234261402230404
+mediation,preadult_persistent,,0.05054149163209787,0.01329615388167349,0.7369259700829769
+mediation,first_synapse_L1,,0.03208257741155818,0.006148702566564301,0.8083476122355073

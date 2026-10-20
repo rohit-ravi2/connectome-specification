@@ -1,0 +1,4 @@
+target,era,n_test,n_pos,auc_area,auc_topo,auc_area_topo,delta_topo_over_area,delta_ci_lo,delta_ci_med,delta_ci_hi
+T_first_L1,L1,1632,258,0.8916,0.7196,0.8954,0.0037,-0.0026,0.0029,0.0083
+T_preadult_persist,L1,1632,223,0.8819,0.7202,0.8783,-0.0036,-0.0134,-0.0048,-0.0006
+adult_strong_core1,AD,1632,223,0.9277,0.7307,0.927,-0.0006,-0.0036,0.0027,0.0074

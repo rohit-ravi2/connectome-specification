@@ -1,0 +1,13 @@
+target,feature,resid_corr
+L1_reproducible,tsel_cos,0.0020062506645440454
+L1_reproducible,tf_cos,-0.009805992377888933
+L1_reproducible,full_cos,0.03265330224526006
+L1_reproducible,reg_resid_R2,0.0020131900370704116
+preadult_persistent,tsel_cos,0.011403111360691639
+preadult_persistent,tf_cos,0.012120062362107394
+preadult_persistent,full_cos,0.052058442886391214
+preadult_persistent,reg_resid_R2,-0.0013729877967588067
+first_synapse_L1,tsel_cos,0.02832637046281985
+first_synapse_L1,tf_cos,0.01714738032036167
+first_synapse_L1,full_cos,0.07466161875643695
+first_synapse_L1,reg_resid_R2,-0.019532557193581157

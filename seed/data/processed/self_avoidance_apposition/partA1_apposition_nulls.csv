@@ -1,0 +1,3 @@
+test,real,null_mean,null_std,z
+timing_gain_over_F0,0.0314,0.0041,0.0035,7.7
+identity_gain_over_F0F1,0.0331,0.0288,0.0018,2.32

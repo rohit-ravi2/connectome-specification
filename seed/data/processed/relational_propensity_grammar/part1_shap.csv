@@ -1,0 +1,20 @@
+feature,block,mean_abs_shap,interpretation
+C:c_adult,CONTACT,0.5532528680884997,adult contact area (Witvliet)
+C:log_c_adult,CONTACT,0.48189488986813733,log adult contact area
+HO:Katz_ij,HIGHER-ORDER,0.41996578549223945,READOUT-DIRECT: Katz i->j (1st term = direct Cook edge)
+HO:RDPG16_ij,HIGHER-ORDER,0.3208672097879319,READOUT-DIRECT: rank-16 reconstruction of Cook edge i->j (contains direct edge)
+HO:Katz_ji,HIGHER-ORDER,0.10142731843294618,READOUT-DIRECT: Katz j->i
+HO:log_C3_ji,HIGHER-ORDER,0.10020221651717379,READOUT: 3-hop paths j->i
+C:shared_contact_nbr,CONTACT,0.0710883076777334,#shared contact neighbors (contact transitivity)
+C:c_L3,CONTACT,0.0706099689065118,contact area L3
+C:wcdeg_i,CONTACT,0.060246664277332856,pre contact degree
+C:log_brittin_area,CONTACT,0.05945015621902829,Brittin adult contact area
+HO:log_C3_ij,HIGHER-ORDER,0.05756512253976285,READOUT: 3-hop paths i->j (transitivity)
+C:c_L2,CONTACT,0.04732968224921881,contact area L2
+C:c_L1,CONTACT,0.04606292701027705,contact area L1 (anatomy)
+HO:log_Cout(sharedOUT),HIGHER-ORDER,0.04245519029834139,READOUT/transitivity: shared postsynaptic targets
+HO:RDPG16_ji,HIGHER-ORDER,0.024531356130410548,READOUT-DIRECT: rank-16 reconstruction of Cook edge j->i
+HO:log_Cin(sharedIN),HIGHER-ORDER,0.017925371740220818,READOUT/transitivity: shared presynaptic inputs (assortativity)
+HO:log_Cff(feedfwd),HIGHER-ORDER,0.016878384192538808,READOUT: 2-hop feedforward paths (transitivity)
+C:wcdeg_j,CONTACT,0.015476477705123769,post contact degree
+HO:log_comm(commonNbr),HIGHER-ORDER,0.013762398958401097,READOUT: common connectome neighbors

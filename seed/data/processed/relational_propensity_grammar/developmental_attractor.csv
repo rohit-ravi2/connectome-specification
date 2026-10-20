@@ -1,0 +1,4 @@
+contact_only_AUC,0.7803
+L1_context_AUC,0.8405
+adult_context_AUC,0.8546
+L1_persist_AUC,0.6648

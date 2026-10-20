@@ -1,0 +1,8 @@
+case,cengen_class_present,note,IgSF,cadherin,nrx_nlg,netrin,slit_robo,sema_plexin,wnt,active_zone,vesicle,camkii_prune,glial
+ASE_L_R,True,class present in CeNGEN,,,,,,,,,,,
+HSN_present,True,class present in CeNGEN,,,,,,,,,,,
+ASEL_module_logTPM,,,1.716,3.338,5.047,1.506,1.105,1.964,0.327,5.281,6.999,8.739,1.107
+ASER_module_logTPM,,,2.336,3.424,3.154,1.311,0.96,1.33,0.563,5.98,7.7,10.34,0.0
+HSN_module_logTPM,,,3.785,5.896,5.404,1.939,5.276,4.106,2.224,7.671,8.872,7.944,4.375
+AWA_module_logTPM,,,1.927,3.3,2.988,1.605,1.904,1.923,0.484,4.7,6.597,6.937,3.778
+AFD_module_logTPM,,,2.299,4.074,2.648,1.114,1.793,0.994,2.11,4.986,6.674,10.893,0.0

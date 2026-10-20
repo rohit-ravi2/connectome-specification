@@ -1,0 +1,5 @@
+target,contact_topology_AUC,contact_NT_AUC,preadult_only_AUC,contact_preadult_AUC,contact_NT_preadult_AUC,ADD_preadult_over_contactNT,stageshuffle_null_mean,real_full,shuffle_beaten
+strong_core>=1,0.707,0.712,0.823,0.840,0.838,+0.126,0.705,0.838,all-15 (p=1/16 floor)
+strong_core>=2,0.763,0.784,0.924,0.930,0.933,+0.149,0.775,0.933,all-15
+strong_core>=4,0.797,0.821,0.954,0.958,0.958,+0.137,0.819,0.958,all-15
+variable_halo,0.590,0.605,0.799,0.795,0.794,+0.189,0.603,0.794,all-15

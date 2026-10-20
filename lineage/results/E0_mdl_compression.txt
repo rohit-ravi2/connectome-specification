@@ -1,0 +1,49 @@
+tree: 2248 nodes | internal 1110 | leaves 1138
+
+(1) SUBTREE-SHARING MDL: 1110 internal subtrees, 219 distinct shapes -> overall compression ratio 5.07x
+    random-tree null compression ratio 4.14±0.12x  -> real/null = 1.23x (MORE compressible than random)
+    compression by subtree size (real distinct/total):
+      size  2:  12 subtrees,   1 distinct shapes (12.00x)
+      size  3: 406 subtrees,   2 distinct shapes (203.00x)
+      size  4:  10 subtrees,   4 distinct shapes (2.50x)
+      size  5: 122 subtrees,   3 distinct shapes (40.67x)
+      size  6:   9 subtrees,   3 distinct shapes (3.00x)
+      size  7: 138 subtrees,   5 distinct shapes (27.60x)
+      size  8:   7 subtrees,   4 distinct shapes (1.75x)
+      size  9:  67 subtrees,   3 distinct shapes (22.33x)
+      size 10:   8 subtrees,   6 distinct shapes (1.33x)
+      size 11:  34 subtrees,   7 distinct shapes (4.86x)
+      size 12:   6 subtrees,   6 distinct shapes (1.00x)
+      size 13:  10 subtrees,   4 distinct shapes (2.50x)
+      size 15:  34 subtrees,   6 distinct shapes (5.67x)
+      size 17:  35 subtrees,   5 distinct shapes (7.00x)
+      size 19:  16 subtrees,   7 distinct shapes (2.29x)
+      size 20:   5 subtrees,   2 distinct shapes (2.50x)
+      size 21:   5 subtrees,   4 distinct shapes (1.25x)
+      size 23:   9 subtrees,   6 distinct shapes (1.50x)
+      size 25:   7 subtrees,   5 distinct shapes (1.40x)
+      size 26:   8 subtrees,   3 distinct shapes (2.67x)
+      size 29:   8 subtrees,   5 distinct shapes (1.60x)
+      size 31:  10 subtrees,   6 distinct shapes (1.67x)
+      size 33:   8 subtrees,   6 distinct shapes (1.33x)
+      size 34:   5 subtrees,   2 distinct shapes (2.50x)
+      size 35:   7 subtrees,   3 distinct shapes (2.33x)
+      size 39:   6 subtrees,   5 distinct shapes (1.20x)
+
+(2) HELD-OUT FOUNDER: shapes seen in a founder that ALSO occur in OTHER founders (reuse across lineage):
+    P   :  13 distinct shapes, 0.46 also appear in other founders
+    AB  : 116 distinct shapes, 0.11 also appear in other founders
+    V   :  20 distinct shapes, 0.35 also appear in other founders
+    TL  :  13 distinct shapes, 0.46 also appear in other founders
+    B   :  18 distinct shapes, 0.44 also appear in other founders
+    C   :   6 distinct shapes, 0.67 also appear in other founders
+    MS  :  34 distinct shapes, 0.29 also appear in other founders
+    M   :   8 distinct shapes, 0.38 also appear in other founders
+    Z   :  32 distinct shapes, 0.16 also appear in other founders
+
+(3) TERMINAL FATE (early/late born) grammar, 236 covered terminals:
+    held-out-founder AUC(rule->early/late) = nan (base-rate 0.847, n-founders 0)
+
+================================================================================
+E0 VERDICT: COMPRESSION > random (reusable structure exists) | held-out-fate AUC 0.00
+================================================================================

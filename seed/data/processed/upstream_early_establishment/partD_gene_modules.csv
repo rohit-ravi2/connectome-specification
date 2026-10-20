@@ -1,0 +1,12 @@
+module,n_genes_listed,n_genes_found,genes_found,genes_missing,source
+IgSF,19,19,rig-1;rig-3;rig-4;rig-5;rig-6;zig-1;zig-2;zig-3;zig-4;zig-5;zig-8;oig-1;oig-4;wrk-1;syg-1;syg-2;lad-2;sax-7;dig-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+cadherin,10,7,cdh-1;cdh-3;cdh-4;cdh-6;cdh-8;cdh-11;hmr-1;fmi-1;casy-1,cdh-7,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+nrx_nlg,2,2,nrx-1;nlg-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+netrin,3,3,unc-6;unc-40;unc-5,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+slit_robo,3,3,slt-1;sax-3;eva-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+sema_plexin,5,5,smp-1;smp-2;plx-1;plx-2;mab-20,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+wnt,8,8,lin-44;egl-20;cwn-1;cwn-2;mom-2;lin-17;mig-1;cam-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+active_zone,7,7,syd-1;syd-2;unc-10;unc-13;cla-1;elks-1;rimb-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+vesicle,6,6,rab-3;snb-1;unc-18;unc-64;unc-104;snt-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+camkii_prune,2,2,unc-43;pkc-2,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)
+glial,1,1,ced-1,,WormBase WS297 GAF symbol + CeNGEN scRNA (021821 liberal TPM)

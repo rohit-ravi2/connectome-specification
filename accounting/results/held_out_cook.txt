@@ -1,0 +1,19 @@
+Cook herm chemical: 2558 directed edges among 181/181 mapped neurons
+Cook residual: synapses(mapped,contacting)=3124 FN_cook=1559 | non-syn=5246 FP_cook=1276
+
+==================================================================================
+HELD-OUT REPLICATION ON COOK — do Stage-2 candidates re-hit the same structure?
+==================================================================================
+
+Notch-Delta LIN-12~LAG-2 @ FP_cook  n=18
+   expr-perm-z=-1.1  region-z=-0.6  contact-resid-z=0.0
+   => does NOT replicate on Cook
+
+MIG-13~MIG-6 @ FP_cook  n=52
+   expr-perm-z=-1.6  region-z=-1.4  contact-resid-z=-1.1
+   => does NOT replicate on Cook
+
+Slit-Robo SLT-1~SAX-3 @ FN_cook  n=150
+   expr-perm-z=2.8  region-z=2.0  contact-resid-z=4.5
+   => REPLICATES out-of-sample (survives all 3 nulls on Cook)
+==================================================================================

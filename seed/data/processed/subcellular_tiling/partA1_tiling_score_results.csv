@@ -1,0 +1,5 @@
+group,n,d_own_median,like_nt_occupied_pct,like_fam_occupied_pct
+nonsyn_same_nt,160,3432.0,33.1,4.4
+nonsyn_diff_nt,159,1864.9,32.1,5.0
+synaptic,1623,970.6,57.1,42.1
+nonsyn_head_motor,86,5389.7,23.3,5.8

@@ -1,0 +1,12 @@
+test,group,n,chem_syn_rate,mean_contact,nonsyn_rate,control,same_nt_frac,same_family_frac
+A2.3_syn_rate_same_family,same_family,40,0.175,3814494.0,0.825,,,
+A2.3_syn_rate_cross_family,cross_family,206,0.1602,1310913.7864,0.8398,,,
+A2.3_syn_rate_same_nt,same_nt,212,0.1179,1874793.9623,0.8821,,,
+A2.3_syn_rate_diff_nt,diff_nt,34,0.4412,740343.5294,0.5588,,,
+A2.3_LR_homolog_syn_concordance,mirror_pairs,94,0.9362,,,,,
+,,40,,3674976.0,0.0,HM_high_contact_synaptic,0.625,0.175
+,,3360,,355207.7857,1.0,nonHM_nonsynaptic,0.3402,0.0101
+,,206,,1338004.6602,1.0,HM_nonsynaptic,0.9078,0.1602
+,,2067,,956602.9608,0.6294,degree_matched_nonHM,0.3425,0.0087
+,,2000,,-0.0148,0.836,shuffle_family_same_vs_cross_nonsyn_gap,0.0012,-0.2187
+,,2000,,-0.3233,0.0,shuffle_NT_same_vs_diff_synrate_gap,0.0014,-4.515

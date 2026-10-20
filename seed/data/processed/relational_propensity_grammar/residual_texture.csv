@@ -1,0 +1,4 @@
+object,morans_I,pval
+propensity_apposition,0.0688,0.001
+RESIDUAL_apposition,-0.0125,0.801
+residual_node_soma,0.012,0.298

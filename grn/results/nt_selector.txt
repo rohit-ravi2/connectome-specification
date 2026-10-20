@@ -1,0 +1,41 @@
+NT-selectors in CeNGEN: 20 | battery genes: 13
+
+==========================================================================
+POSITIVE CONTROLS (known NT-selector -> its battery)
+==========================================================================
+  unc-3  -> unc-17  (ACh): z=+3.6 enrich=+0.250 (n=39)  HIT
+  unc-3  -> cha-1   (ACh): z=+2.4 enrich=+0.205 (n=39)
+  unc-3  -> cho-1   (ACh): z=+3.2 enrich=+0.236 (n=39)  HIT
+  unc-30 -> unc-25  (GABA): z=+2.8 enrich=+0.341 (n=5)
+  unc-30 -> unc-47  (GABA): z=+1.5 enrich=+0.251 (n=5)
+  unc-30 -> unc-46  (GABA): z=+0.5 enrich=+0.077 (n=5)
+  cfi-1  -> unc-17  (ACh): z=+0.7 enrich=+0.067 (n=16)
+  cfi-1  -> cha-1   (ACh): z=+1.4 enrich=+0.153 (n=16)
+  cfi-1  -> cho-1   (ACh): z=+1.4 enrich=+0.151 (n=16)
+
+==========================================================================
+FULL PER-RULE SCAN (selector x battery), permutation null
+==========================================================================
+rules 247 | z>3: 10 (chance ~0.33)
+   lim-6  -> unc-25  z=+5.2 enrich=+0.500 [GABA]  HIT
+   nhr-67 -> unc-25  z=+4.0 enrich=+0.257 [GABA]  HIT
+   lim-6  -> unc-47  z=+3.8 enrich=+0.490 [GABA]  HIT
+   ceh-43 -> cat-2   z=+3.6 enrich=+0.157 [monoamine]  HIT
+   unc-3  -> unc-17  z=+3.5 enrich=+0.250 [ACh]  HIT
+   ceh-2  -> bas-1   z=+3.4 enrich=+0.314 [monoamine]  HIT
+   lim-6  -> unc-46  z=+3.3 enrich=+0.406 [GABA]  HIT
+   bnc-1  -> cho-1   z=+3.3 enrich=+0.317 [ACh]  HIT
+   unc-3  -> cho-1   z=+3.2 enrich=+0.236 [ACh]  HIT
+   unc-4  -> unc-17  z=+3.1 enrich=+0.324 [ACh]  HIT
+   ast-1  -> cat-2   z=+3.0 enrich=+0.099 [monoamine]
+   ceh-43 -> bas-1   z=+2.8 enrich=+0.172 [monoamine]
+
+==========================================================================
+RANDOM-GENE CONTROL (GRN-killer): do NT-selectors beat random same-size genes?
+==========================================================================
+  mean best-per-battery-gene z: NT-selectors=3.09  vs random 20-gene sets=1.96±0.20
+  Δ = +1.14  -> NT-SELECTOR-SPECIFIC (beats random = real regulatory code)
+
+==========================================================================
+VERDICT: NT-selector code REAL at NT-identity layer
+==========================================================================

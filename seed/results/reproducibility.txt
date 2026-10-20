@@ -1,0 +1,22 @@
+total edge-records: 12954   animals(datasets): [1, 2, 3, 4, 5, 6, 7, 8]   neurons: 225
+
+=== adult  (2 animals: [7, 8]) ===
+  distinct edges (union): 3358
+    in exactly 1/2:  1727  (51.4%)
+    in exactly 2/2:  1631  (48.6%)
+  CORE (all 2):    1631  (48.6%)  <- reproducible (rules+seed)
+  VARIABLE (<2):   1727  (51.4%)  <- noise/plasticity
+    chemical  :  2919 edges, core 50.3%
+    electrical:   439 edges, core 36.9%
+
+=== L1  (4 animals: [1, 2, 3, 4]) ===
+  distinct edges (union): 2024
+    in exactly 1/4:   894  (44.2%)
+    in exactly 2/4:   366  (18.1%)
+    in exactly 3/4:   263  (13.0%)
+    in exactly 4/4:   501  (24.8%)
+  CORE (all 4):     501  (24.8%)  <- reproducible (rules+seed)
+  VARIABLE (<4):   1523  (75.2%)  <- noise/plasticity
+    chemical  :  1735 edges, core 27.7%
+    electrical:   289 edges, core  7.3%
+

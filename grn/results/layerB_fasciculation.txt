@@ -1,0 +1,37 @@
+ring neurons 122 | contact-community tracts 6 (sizes [11, 13, 17, 25, 26, 30])
+co-tract pairs 1329/7381 | soma-distance->co-tract AUC 0.527
+
+POSITIVE CONTROLS (homotypic fasciculation CAM -> co-tract):
+  sax-7  : z=-1.6 enrich=-0.040 (homotypic in 7140 pairs)
+  fmi-1  : z=+0.5 enrich=+0.005 (homotypic in 5565 pairs)
+  rig-6  : z=-1.7 enrich=-0.019 (homotypic in 1596 pairs)
+
+FULL CAM SCAN:
+  lad-2  : z=+4.4 enrich=+0.087 n=406  HIT
+  dig-1  : z=+3.2 enrich=+0.145 n=78  HIT
+  ptp-3  : z=+2.2 enrich=+0.048 n=7021
+  cdh-3  : z=+2.0 enrich=+0.115 n=45
+  sax-3  : z=+1.7 enrich=+0.023 n=6441
+  oig-1  : z=+1.7 enrich=+0.016 n=2556
+  zig-8  : z=+1.6 enrich=+0.018 n=1431
+  nrx-1  : z=+1.4 enrich=+0.017 n=6328
+  fmi-1  : z=+0.5 enrich=+0.005 n=5565
+  mig-6  : z=+0.2 enrich=+0.015 n=36
+  zig-4  : z=+0.0 enrich=-0.000 n=253
+  rig-5  : z=-0.2 enrich=-0.004 n=253
+  hmr-1  : z=-0.4 enrich=-0.008 n=6903
+  zig-3  : z=-0.6 enrich=-0.025 n=120
+  cdh-1  : z=-0.8 enrich=-0.008 n=1953
+  unc-40 : z=-1.2 enrich=-0.015 n=6216
+  cdh-8  : z=-1.3 enrich=-0.035 n=253
+  nlg-1  : z=-1.5 enrich=-0.017 n=1326
+  sax-7  : z=-1.6 enrich=-0.040 n=7140
+  rig-6  : z=-1.7 enrich=-0.019 n=1596
+  wrk-1  : z=-2.4 enrich=-0.022 n=2850
+  cdh-4  : z=-2.8 enrich=-0.031 n=5995
+
+========================================================================
+CAM rules z>3: 2/22 vs ~0.03 chance
+NOTE: co-tract is contact-derived -> this CONFIRMS/extends adhesion->contact at coarser granularity;
+      it is NOT an independent 5th layer (that needs Moyle strata, not on disk).
+========================================================================

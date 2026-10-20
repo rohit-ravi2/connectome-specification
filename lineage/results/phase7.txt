@@ -1,0 +1,16 @@
+directed contacting pairs (lineage-covered) 9878 | reproducible chem 1217 (0.123)
+
+====================================================================================
+PHASE 7 — reproducible-synapse baseline stack + LINEAGE
+====================================================================================
+  geometry                                       AUC=0.8245 bits=7417
+  geometry+dev-arrival                           AUC=0.8851 bits=6191
+  geometry+dev+srcNT (connectome-seed baseline)  AUC=0.8925 bits=5989
+    +LINEAGE (td,born,founder)                   AUC=0.8943 bits=5919
+
+  ΔAUC(lineage | geometry+dev+NT) = +0.0018
+  lineage-permutation null ΔAUC = -0.0001 ± 0.0004  z=+5.0
+
+====================================================================================
+PHASE 7 VERDICT: LINEAGE ADDS ~NOTHING beyond geometry+dev+NT -> no developmental wiring grammar beyond contact+timing
+====================================================================================

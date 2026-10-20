@@ -1,0 +1,6 @@
+subset,shared_in,shared_out,feedfwd
+global,-0.132,0.284,0.826
+high_contact,-0.252,0.452,1.209
+same_nt,-0.174,0.38,0.828
+same_nt_high_contact,-0.179,0.623,1.204
+diff_nt_high_contact,-0.237,0.314,1.168

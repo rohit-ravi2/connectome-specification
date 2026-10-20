@@ -1,0 +1,337 @@
+edge_class,n_edges,null_scheme,metric,baseline,class_value,class_delta,null_delta_mean,null_delta_ci_lo,null_delta_ci_hi,z_vs_null,emp_p_more_disruptive,more_disruptive_than_null,z_vs_null_clipped
+strong_core2 (>=2 syn),903,random,global_efficiency,0.23911,0.11383,-0.12528,-0.14495,-0.16019,-0.13613,2.573,1.0,False,2.573
+strong_core2 (>=2 syn),903,random,mean_shortest_path,3.60605,5.35892,1.75287,1.64656,0.86023,2.75583,0.173,0.3871,True,0.173
+strong_core2 (>=2 syn),903,random,largest_scc,154.0,104.0,-50.0,-79.93333,-119.2,-59.175,1.625,1.0,False,1.625
+strong_core2 (>=2 syn),903,random,sm_reachability,1.0,0.78049,-0.21951,-0.21917,-0.36286,-0.08735,-0.005,0.4839,True,-0.005
+strong_core2 (>=2 syn),903,random,communicability,473.18446,451.91358,-21.27088,-32.49604,-52.08142,-15.67298,1.2,0.9032,False,1.2
+strong_core2 (>=2 syn),903,random,betweenness_L1_shift,0.0,1.30679,1.30679,1.34761,1.12095,1.75977,-0.197,0.5484,False,-0.197
+strong_core2 (>=2 syn),903,random,n_reachable_pairs,33514.0,22799.0,-10715.0,-15838.43333,-20006.3,-12934.425,2.119,1.0,False,2.119
+strong_core2 (>=2 syn),903,contact,global_efficiency,0.23911,0.11383,-0.12528,-0.15017,-0.16374,-0.13444,3.789,1.0,False,3.789
+strong_core2 (>=2 syn),903,contact,mean_shortest_path,3.60605,5.35892,1.75287,1.72589,1.11501,2.46291,0.063,0.4516,True,0.063
+strong_core2 (>=2 syn),903,contact,largest_scc,154.0,104.0,-50.0,-85.46667,-108.65,-64.625,3.144,1.0,False,3.144
+strong_core2 (>=2 syn),903,contact,sm_reachability,1.0,0.78049,-0.21951,-0.2502,-0.39177,-0.11524,0.396,0.5806,False,0.396
+strong_core2 (>=2 syn),903,contact,communicability,473.18446,451.91358,-21.27088,-18.54831,-31.99478,-7.44953,-0.41,0.3226,True,-0.41
+strong_core2 (>=2 syn),903,contact,betweenness_L1_shift,0.0,1.30679,1.30679,1.36006,1.10145,1.72908,-0.327,0.6452,False,-0.327
+strong_core2 (>=2 syn),903,contact,n_reachable_pairs,33514.0,22799.0,-10715.0,-16771.06667,-20559.65,-13147.475,3.197,1.0,False,3.197
+strong_core2 (>=2 syn),903,degree,global_efficiency,0.23911,0.11383,-0.12528,-0.13317,-0.14277,-0.12369,1.441,0.9032,False,1.441
+strong_core2 (>=2 syn),903,degree,mean_shortest_path,3.60605,5.35892,1.75287,2.22649,1.59062,3.18493,-1.039,0.871,False,-1.039
+strong_core2 (>=2 syn),903,degree,largest_scc,154.0,104.0,-50.0,-57.5,-79.375,-39.35,0.631,0.7419,False,0.631
+strong_core2 (>=2 syn),903,degree,sm_reachability,1.0,0.78049,-0.21951,-0.15298,-0.23542,-0.06479,-1.408,0.0968,True,-1.408
+strong_core2 (>=2 syn),903,degree,communicability,473.18446,451.91358,-21.27088,-8.59228,-25.31883,4.37747,-1.482,0.1613,True,-1.482
+strong_core2 (>=2 syn),903,degree,betweenness_L1_shift,0.0,1.30679,1.30679,1.5763,1.24401,2.15007,-1.119,0.9032,False,-1.119
+strong_core2 (>=2 syn),903,degree,n_reachable_pairs,33514.0,22799.0,-10715.0,-11726.36667,-14954.475,-8939.65,0.54,0.6774,False,0.54
+strong_core4 (>=4 syn),522,random,global_efficiency,0.23911,0.18907,-0.05004,-0.0767,-0.08967,-0.06894,4.666,1.0,False,4.666
+strong_core4 (>=4 syn),522,random,mean_shortest_path,3.60605,4.19459,0.58855,0.92064,0.53175,1.30805,-1.518,0.9355,False,-1.518
+strong_core4 (>=4 syn),522,random,largest_scc,154.0,143.0,-11.0,-35.13333,-60.55,-25.0,2.641,1.0,False,2.641
+strong_core4 (>=4 syn),522,random,sm_reachability,1.0,0.92683,-0.07317,-0.02825,-0.10569,0.0,-1.182,0.2903,True,-1.182
+strong_core4 (>=4 syn),522,random,communicability,473.18446,469.65257,-3.53189,-21.02487,-26.97021,-15.17666,4.81,1.0,False,4.81
+strong_core4 (>=4 syn),522,random,betweenness_L1_shift,0.0,0.76284,0.76284,1.16614,0.92003,1.41235,-2.84,1.0,False,-2.84
+strong_core4 (>=4 syn),522,random,n_reachable_pairs,33514.0,30726.0,-2788.0,-6773.8,-10399.2,-4890.625,2.74,1.0,False,2.74
+strong_core4 (>=4 syn),522,contact,global_efficiency,0.23911,0.18907,-0.05004,-0.08107,-0.09151,-0.07095,5.304,1.0,False,5.304
+strong_core4 (>=4 syn),522,contact,mean_shortest_path,3.60605,4.19459,0.58855,0.63673,0.24929,1.01931,-0.218,0.6452,False,-0.218
+strong_core4 (>=4 syn),522,contact,largest_scc,154.0,143.0,-11.0,-47.23333,-63.375,-32.0,4.144,1.0,False,4.144
+strong_core4 (>=4 syn),522,contact,sm_reachability,1.0,0.92683,-0.07317,-0.04736,-0.15706,0.0,-0.493,0.4516,True,-0.493
+strong_core4 (>=4 syn),522,contact,communicability,473.18446,469.65257,-3.53189,-13.01871,-20.25535,-6.51037,2.311,1.0,False,2.311
+strong_core4 (>=4 syn),522,contact,betweenness_L1_shift,0.0,0.76284,0.76284,1.02928,0.86254,1.25922,-2.326,1.0,False,-2.326
+strong_core4 (>=4 syn),522,contact,n_reachable_pairs,33514.0,30726.0,-2788.0,-8791.2,-11603.6,-6491.625,4.136,1.0,False,4.136
+strong_core4 (>=4 syn),522,degree,global_efficiency,0.23911,0.18907,-0.05004,-0.06191,-0.06796,-0.05731,3.766,1.0,False,3.766
+strong_core4 (>=4 syn),522,degree,mean_shortest_path,3.60605,4.19459,0.58855,0.92141,0.67101,1.24513,-2.081,1.0,False,-2.081
+strong_core4 (>=4 syn),522,degree,largest_scc,154.0,143.0,-11.0,-19.03333,-28.825,-11.45,1.632,0.9677,False,1.632
+strong_core4 (>=4 syn),522,degree,sm_reachability,1.0,0.92683,-0.07317,-0.00644,-0.0406,0.0,-3.986,0.0645,True,-3.986
+strong_core4 (>=4 syn),522,degree,communicability,473.18446,469.65257,-3.53189,3.76642,-0.83321,8.41416,-2.9,0.0323,True,-2.9
+strong_core4 (>=4 syn),522,degree,betweenness_L1_shift,0.0,0.76284,0.76284,1.06704,0.84257,1.39667,-2.102,1.0,False,-2.102
+strong_core4 (>=4 syn),522,degree,n_reachable_pairs,33514.0,30726.0,-2788.0,-3739.43333,-5535.375,-2442.425,1.093,0.871,False,1.093
+weak_core (exactly 1 syn),566,random,global_efficiency,0.23911,0.13008,-0.10903,-0.05762,-0.06446,-0.05408,-19.423,0.0323,True,-19.423
+weak_core (exactly 1 syn),566,random,mean_shortest_path,3.60605,4.51947,0.91343,0.75509,0.6049,0.90297,2.02,0.0645,True,2.02
+weak_core (exactly 1 syn),566,random,largest_scc,154.0,91.0,-63.0,-13.53333,-23.1,-10.0,-13.859,0.0323,True,-13.859
+weak_core (exactly 1 syn),566,random,sm_reachability,1.0,1.0,0.0,-0.05556,-0.12195,-0.01621,1.813,1.0,False,1.813
+weak_core (exactly 1 syn),566,random,communicability,473.18446,445.61395,-27.5705,-8.56256,-20.1233,0.13444,-3.457,0.0323,True,-3.457
+weak_core (exactly 1 syn),566,random,betweenness_L1_shift,0.0,1.32043,1.32043,0.803,0.67963,0.96098,6.514,0.0323,True,6.514
+weak_core (exactly 1 syn),566,random,n_reachable_pairs,33514.0,20825.0,-12689.0,-3290.1,-5081.425,-2571.325,-14.857,0.0323,True,-14.857
+weak_core (exactly 1 syn),566,contact,global_efficiency,0.23911,0.13008,-0.10903,-0.05364,-0.05903,-0.04909,-21.17,0.0323,True,-21.17
+weak_core (exactly 1 syn),566,contact,mean_shortest_path,3.60605,4.51947,0.91343,0.71231,0.66462,0.77582,6.446,0.0323,True,6.446
+weak_core (exactly 1 syn),566,contact,largest_scc,154.0,91.0,-63.0,-8.4,-13.55,-4.0,-20.938,0.0323,True,-20.938
+weak_core (exactly 1 syn),566,contact,sm_reachability,1.0,1.0,0.0,-0.02439,-0.04878,0.0,1.269,1.0,False,1.269
+weak_core (exactly 1 syn),566,contact,communicability,473.18446,445.61395,-27.5705,-26.78893,-31.37224,-21.27889,-0.268,0.3871,True,-0.268
+weak_core (exactly 1 syn),566,contact,betweenness_L1_shift,0.0,1.32043,1.32043,0.74776,0.6759,0.84654,11.294,0.0323,True,11.294
+weak_core (exactly 1 syn),566,contact,n_reachable_pairs,33514.0,20825.0,-12689.0,-2891.0,-4021.35,-2014.425,-18.879,0.0323,True,-18.879
+weak_core (exactly 1 syn),566,degree,global_efficiency,0.23911,0.13008,-0.10903,-0.06785,-0.07239,-0.06248,-14.329,0.0323,True,-14.329
+weak_core (exactly 1 syn),566,degree,mean_shortest_path,3.60605,4.51947,0.91343,0.60903,0.44039,0.85887,2.236,0.0323,True,2.236
+weak_core (exactly 1 syn),566,degree,largest_scc,154.0,91.0,-63.0,-25.23333,-32.0,-14.725,-7.131,0.0323,True,-7.131
+weak_core (exactly 1 syn),566,degree,sm_reachability,1.0,1.0,0.0,-0.11944,-0.16926,-0.07261,4.281,1.0,False,4.281
+weak_core (exactly 1 syn),566,degree,communicability,473.18446,445.61395,-27.5705,-32.72135,-38.5081,-27.12206,1.543,0.9032,False,1.543
+weak_core (exactly 1 syn),566,degree,betweenness_L1_shift,0.0,1.32043,1.32043,0.77417,0.65859,0.95941,6.563,0.0323,True,6.563
+weak_core (exactly 1 syn),566,degree,n_reachable_pairs,33514.0,20825.0,-12689.0,-5954.36667,-6955.9,-4375.1,-8.103,0.0323,True,-8.103
+preadult_persistent (>=2 groups),999,random,global_efficiency,0.23911,0.09374,-0.14537,-0.16952,-0.18246,-0.16004,3.585,1.0,False,3.585
+preadult_persistent (>=2 groups),999,random,mean_shortest_path,3.60605,6.10356,2.49752,2.03686,1.03029,3.61853,0.646,0.2258,True,0.646
+preadult_persistent (>=2 groups),999,random,largest_scc,154.0,102.0,-52.0,-96.83333,-125.2,-71.175,2.758,1.0,False,2.758
+preadult_persistent (>=2 groups),999,random,sm_reachability,1.0,0.78049,-0.21951,-0.35217,-0.51037,-0.20407,1.407,0.9355,False,1.407
+preadult_persistent (>=2 groups),999,random,communicability,473.18446,411.24638,-61.93808,-41.56416,-57.53297,-28.78716,-2.267,0.0323,True,-2.267
+preadult_persistent (>=2 groups),999,random,betweenness_L1_shift,0.0,1.73075,1.73075,1.43114,1.13876,1.82148,1.568,0.1613,True,1.568
+preadult_persistent (>=2 groups),999,random,n_reachable_pairs,33514.0,20770.0,-12744.0,-19973.63333,-23885.05,-16716.125,3.379,1.0,False,3.379
+preadult_persistent (>=2 groups),999,contact,global_efficiency,0.23911,0.09374,-0.14537,-0.17566,-0.18942,-0.16476,4.705,1.0,False,4.705
+preadult_persistent (>=2 groups),999,contact,mean_shortest_path,3.60605,6.10356,2.49752,2.04773,0.89371,3.08202,0.629,0.4194,True,0.629
+preadult_persistent (>=2 groups),999,contact,largest_scc,154.0,102.0,-52.0,-107.3,-136.55,-78.975,3.462,1.0,False,3.462
+preadult_persistent (>=2 groups),999,contact,sm_reachability,1.0,0.78049,-0.21951,-0.41382,-0.51865,-0.28013,2.604,1.0,False,2.604
+preadult_persistent (>=2 groups),999,contact,communicability,473.18446,411.24638,-61.93808,-27.12117,-42.57797,-10.31594,-3.796,0.0323,True,-3.796
+preadult_persistent (>=2 groups),999,contact,betweenness_L1_shift,0.0,1.73075,1.73075,1.41153,1.16024,1.68453,2.18,0.0323,True,2.18
+preadult_persistent (>=2 groups),999,contact,n_reachable_pairs,33514.0,20770.0,-12744.0,-21261.83333,-25252.625,-17223.225,4.052,1.0,False,4.052
+preadult_persistent (>=2 groups),999,degree,global_efficiency,0.23911,0.09374,-0.14537,-0.16118,-0.17381,-0.14771,2.168,1.0,False,2.168
+preadult_persistent (>=2 groups),999,degree,mean_shortest_path,3.60605,6.10356,2.49752,2.95776,1.99603,4.19571,-0.693,0.7097,False,-0.693
+preadult_persistent (>=2 groups),999,degree,largest_scc,154.0,102.0,-52.0,-82.96667,-122.5,-57.625,1.645,1.0,False,1.645
+preadult_persistent (>=2 groups),999,degree,sm_reachability,1.0,0.78049,-0.21951,-0.26084,-0.45178,-0.13521,0.544,0.6452,False,0.544
+preadult_persistent (>=2 groups),999,degree,communicability,473.18446,411.24638,-61.93808,-4.26298,-18.39186,6.63751,-7.842,0.0323,True,-7.842
+preadult_persistent (>=2 groups),999,degree,betweenness_L1_shift,0.0,1.73075,1.73075,1.74985,1.36136,2.36022,-0.059,0.4194,False,-0.059
+preadult_persistent (>=2 groups),999,degree,n_reachable_pairs,33514.0,20770.0,-12744.0,-16200.13333,-20180.45,-12178.275,1.423,0.9032,False,1.423
+transient_in_core (0 preadult groups),251,random,global_efficiency,0.23911,0.19726,-0.04185,-0.02362,-0.02754,-0.01932,-8.609,0.0323,True,-8.609
+transient_in_core (0 preadult groups),251,random,mean_shortest_path,3.60605,3.91709,0.31105,0.29643,0.23069,0.404,0.322,0.3548,True,0.322
+transient_in_core (0 preadult groups),251,random,largest_scc,154.0,137.0,-17.0,-5.36667,-9.275,-1.725,-5.947,0.0323,True,-5.947
+transient_in_core (0 preadult groups),251,random,sm_reachability,1.0,1.0,0.0,-0.00732,-0.02439,0.0,0.644,1.0,False,0.644
+transient_in_core (0 preadult groups),251,random,communicability,473.18446,457.43079,-15.75367,-4.31307,-8.18711,-0.03235,-5.103,0.0323,True,-5.103
+transient_in_core (0 preadult groups),251,random,betweenness_L1_shift,0.0,0.74983,0.74983,0.50577,0.41728,0.64454,3.727,0.0323,True,3.727
+transient_in_core (0 preadult groups),251,random,n_reachable_pairs,33514.0,29056.0,-4458.0,-1151.8,-1882.025,-352.525,-8.323,0.0323,True,-8.323
+transient_in_core (0 preadult groups),251,contact,global_efficiency,0.23911,0.19726,-0.04185,-0.02204,-0.02734,-0.01838,-8.797,0.0323,True,-8.797
+transient_in_core (0 preadult groups),251,contact,mean_shortest_path,3.60605,3.91709,0.31105,0.27598,0.19601,0.37528,0.662,0.2581,True,0.662
+transient_in_core (0 preadult groups),251,contact,largest_scc,154.0,137.0,-17.0,-3.76667,-8.825,-0.725,-5.952,0.0323,True,-5.952
+transient_in_core (0 preadult groups),251,contact,sm_reachability,1.0,1.0,0.0,-0.00149,-0.02144,0.0,0.262,1.0,False,0.262
+transient_in_core (0 preadult groups),251,contact,communicability,473.18446,457.43079,-15.75367,-10.31294,-14.86144,-5.51019,-1.923,0.0323,True,-1.923
+transient_in_core (0 preadult groups),251,contact,betweenness_L1_shift,0.0,0.74983,0.74983,0.47007,0.36286,0.59412,4.064,0.0323,True,4.064
+transient_in_core (0 preadult groups),251,contact,n_reachable_pairs,33514.0,29056.0,-4458.0,-966.53333,-2129.8,-444.2,-8.14,0.0323,True,-8.14
+transient_in_core (0 preadult groups),251,degree,global_efficiency,0.23911,0.19726,-0.04185,-0.02724,-0.03253,-0.02305,-5.104,0.0323,True,-5.104
+transient_in_core (0 preadult groups),251,degree,mean_shortest_path,3.60605,3.91709,0.31105,0.31359,0.19491,0.39785,-0.049,0.6129,False,-0.049
+transient_in_core (0 preadult groups),251,degree,largest_scc,154.0,137.0,-17.0,-7.73333,-13.55,-3.725,-2.756,0.0323,True,-2.756
+transient_in_core (0 preadult groups),251,degree,sm_reachability,1.0,1.0,0.0,-0.02846,-0.05549,0.0,1.334,1.0,False,1.334
+transient_in_core (0 preadult groups),251,degree,communicability,473.18446,457.43079,-15.75367,-14.84417,-18.33056,-11.35759,-0.486,0.2903,True,-0.486
+transient_in_core (0 preadult groups),251,degree,betweenness_L1_shift,0.0,0.74983,0.74983,0.53988,0.43374,0.64861,3.002,0.0323,True,3.002
+transient_in_core (0 preadult groups),251,degree,n_reachable_pairs,33514.0,29056.0,-4458.0,-1755.53333,-2865.025,-982.525,-4.508,0.0323,True,-4.508
+stable_class,760,random,global_efficiency,0.23911,0.15198,-0.08713,-0.10503,-0.11762,-0.09643,2.885,1.0,False,2.885
+stable_class,760,random,mean_shortest_path,3.60605,4.79032,1.18428,1.56294,1.13542,2.39606,-1.21,0.9355,False,-1.21
+stable_class,760,random,largest_scc,154.0,127.0,-27.0,-42.5,-63.65,-28.9,1.618,0.9677,False,1.618
+stable_class,760,random,sm_reachability,1.0,0.87805,-0.12195,-0.09187,-0.2216,-0.02383,-0.492,0.3226,True,-0.492
+stable_class,760,random,communicability,473.18446,452.80651,-20.37795,-21.56696,-32.95242,-12.80295,0.209,0.5484,False,0.209
+stable_class,760,random,betweenness_L1_shift,0.0,1.3406,1.3406,1.34388,1.05603,1.80809,-0.016,0.4839,False,-0.016
+stable_class,760,random,n_reachable_pairs,33514.0,28062.0,-5452.0,-8670.96667,-12260.875,-6597.625,2.045,1.0,False,2.045
+stable_class,760,contact,global_efficiency,0.23911,0.15198,-0.08713,-0.11416,-0.12333,-0.10647,5.172,1.0,False,5.172
+stable_class,760,contact,mean_shortest_path,3.60605,4.79032,1.18428,1.46318,0.91232,2.15372,-0.804,0.7742,False,-0.804
+stable_class,760,contact,largest_scc,154.0,127.0,-27.0,-54.93333,-69.925,-40.725,3.263,1.0,False,3.263
+stable_class,760,contact,sm_reachability,1.0,0.87805,-0.12195,-0.12927,-0.2253,-0.04766,0.125,0.5484,False,0.125
+stable_class,760,contact,communicability,473.18446,452.80651,-20.37795,-10.83927,-22.76454,-1.36747,-1.755,0.0968,True,-1.755
+stable_class,760,contact,betweenness_L1_shift,0.0,1.3406,1.3406,1.28884,0.99064,1.67077,0.267,0.3548,True,0.267
+stable_class,760,contact,n_reachable_pairs,33514.0,28062.0,-5452.0,-10831.53333,-13491.525,-8342.875,3.591,1.0,False,3.591
+stable_class,760,degree,global_efficiency,0.23911,0.15198,-0.08713,-0.09452,-0.10386,-0.08379,1.265,0.9032,False,1.265
+stable_class,760,degree,mean_shortest_path,3.60605,4.79032,1.18428,1.68332,1.30922,2.10695,-2.238,1.0,False,-2.238
+stable_class,760,degree,largest_scc,154.0,127.0,-27.0,-27.66667,-42.2,-16.725,0.088,0.5161,False,0.088
+stable_class,760,degree,sm_reachability,1.0,0.87805,-0.12195,-0.06003,-0.15264,0.0,-1.296,0.129,True,-1.296
+stable_class,760,degree,communicability,473.18446,452.80651,-20.37795,13.60693,3.84229,23.69145,-5.513,0.0323,True,-5.513
+stable_class,760,degree,betweenness_L1_shift,0.0,1.3406,1.3406,1.48554,1.17422,1.88432,-0.77,0.8387,False,-0.77
+stable_class,760,degree,n_reachable_pairs,33514.0,28062.0,-5452.0,-5634.26667,-7709.375,-3249.625,0.141,0.5806,False,0.141
+post_embryonic_integration,185,random,global_efficiency,0.23911,0.19079,-0.04832,-0.0173,-0.02201,-0.01337,-14.088,0.0323,True,-14.088
+post_embryonic_integration,185,random,mean_shortest_path,3.60605,3.65197,0.04592,0.19251,0.1098,0.28979,-2.697,1.0,False,-2.697
+post_embryonic_integration,185,random,largest_scc,154.0,131.0,-23.0,-4.36667,-8.55,-1.45,-9.049,0.0323,True,-9.049
+post_embryonic_integration,185,random,sm_reachability,1.0,0.65041,-0.34959,-0.00325,-0.02439,0.0,-41.071,0.0323,True,-41.071
+post_embryonic_integration,185,random,communicability,473.18446,453.87309,-19.31137,-2.98162,-7.4322,2.61777,-5.368,0.0323,True,-5.368
+post_embryonic_integration,185,random,betweenness_L1_shift,0.0,0.56965,0.56965,0.39813,0.25363,0.57161,2.124,0.0645,True,2.124
+post_embryonic_integration,185,random,n_reachable_pairs,33514.0,26400.0,-7114.0,-926.53333,-1724.25,-388.375,-15.732,0.0323,True,-15.732
+post_embryonic_integration,185,contact,global_efficiency,0.23911,0.19079,-0.04832,-0.01699,-0.02063,-0.01448,-18.041,0.0323,True,-18.041
+post_embryonic_integration,185,contact,mean_shortest_path,3.60605,3.65197,0.04592,0.2102,0.13415,0.28748,-3.716,1.0,False,-3.716
+post_embryonic_integration,185,contact,largest_scc,154.0,131.0,-23.0,-3.53333,-8.0,-1.0,-9.512,0.0323,True,-9.512
+post_embryonic_integration,185,contact,sm_reachability,1.0,0.65041,-0.34959,-0.00081,-0.00671,0.0,-78.324,0.0323,True,-50.0
+post_embryonic_integration,185,contact,communicability,473.18446,453.87309,-19.31137,-4.30595,-8.6503,-1.09891,-6.994,0.0323,True,-6.994
+post_embryonic_integration,185,contact,betweenness_L1_shift,0.0,0.56965,0.56965,0.41932,0.32618,0.55924,2.094,0.0645,True,2.094
+post_embryonic_integration,185,contact,n_reachable_pairs,33514.0,26400.0,-7114.0,-796.33333,-1502.925,-315.725,-17.587,0.0323,True,-17.587
+post_embryonic_integration,185,degree,global_efficiency,0.23911,0.19079,-0.04832,-0.02292,-0.02848,-0.01785,-8.618,0.0323,True,-8.618
+post_embryonic_integration,185,degree,mean_shortest_path,3.60605,3.65197,0.04592,0.20726,0.11565,0.3124,-2.886,1.0,False,-2.886
+post_embryonic_integration,185,degree,largest_scc,154.0,131.0,-23.0,-8.16667,-12.275,-4.0,-5.854,0.0323,True,-5.854
+post_embryonic_integration,185,degree,sm_reachability,1.0,0.65041,-0.34959,-0.02182,-0.07317,0.0,-15.305,0.0323,True,-15.305
+post_embryonic_integration,185,degree,communicability,473.18446,453.87309,-19.31137,-12.31211,-15.39362,-9.24856,-3.941,0.0323,True,-3.941
+post_embryonic_integration,185,degree,betweenness_L1_shift,0.0,0.56965,0.56965,0.49182,0.36852,0.6773,0.769,0.2903,True,0.769
+post_embryonic_integration,185,degree,n_reachable_pairs,33514.0,26400.0,-7114.0,-1883.9,-3036.275,-1079.8,-9.472,0.0323,True,-9.472
+dev_strengthened,228,random,global_efficiency,0.23911,0.20732,-0.03179,-0.02286,-0.02872,-0.01773,-2.783,0.0645,True,-2.783
+dev_strengthened,228,random,mean_shortest_path,3.60605,3.89023,0.28418,0.27878,0.17714,0.37911,0.092,0.4839,True,0.092
+dev_strengthened,228,random,largest_scc,154.0,145.0,-9.0,-6.63333,-12.375,-2.45,-0.769,0.2581,True,-0.769
+dev_strengthened,228,random,sm_reachability,1.0,1.0,0.0,-0.0065,-0.02439,0.0,0.593,1.0,False,0.593
+dev_strengthened,228,random,communicability,473.18446,454.24501,-18.93945,-2.63305,-5.90981,1.69601,-6.864,0.0323,True,-6.864
+dev_strengthened,228,random,betweenness_L1_shift,0.0,0.58923,0.58923,0.51018,0.36115,0.71481,0.813,0.2258,True,0.813
+dev_strengthened,228,random,n_reachable_pairs,33514.0,30673.0,-2841.0,-1284.73333,-2406.975,-430.55,-2.696,0.0645,True,-2.696
+dev_strengthened,228,contact,global_efficiency,0.23911,0.20732,-0.03179,-0.02161,-0.02625,-0.01903,-4.674,0.0323,True,-4.674
+dev_strengthened,228,contact,mean_shortest_path,3.60605,3.89023,0.28418,0.30299,0.21397,0.40788,-0.304,0.5484,False,-0.304
+dev_strengthened,228,contact,largest_scc,154.0,145.0,-9.0,-4.33333,-9.0,-0.725,-2.182,0.0968,True,-2.182
+dev_strengthened,228,contact,sm_reachability,1.0,1.0,0.0,-0.00163,-0.02439,0.0,0.263,1.0,False,0.263
+dev_strengthened,228,contact,communicability,473.18446,454.24501,-18.93945,-7.27225,-10.55246,-2.59551,-4.783,0.0323,True,-4.783
+dev_strengthened,228,contact,betweenness_L1_shift,0.0,0.58923,0.58923,0.52038,0.38833,0.73772,0.628,0.2581,True,0.628
+dev_strengthened,228,contact,n_reachable_pairs,33514.0,30673.0,-2841.0,-914.8,-1585.25,-430.1,-5.351,0.0323,True,-5.351
+dev_strengthened,228,degree,global_efficiency,0.23911,0.20732,-0.03179,-0.02516,-0.02961,-0.01885,-2.205,0.0323,True,-2.205
+dev_strengthened,228,degree,mean_shortest_path,3.60605,3.89023,0.28418,0.33039,0.23587,0.44842,-0.712,0.7419,False,-0.712
+dev_strengthened,228,degree,largest_scc,154.0,145.0,-9.0,-7.66667,-12.275,-3.0,-0.44,0.4516,True,-0.44
+dev_strengthened,228,degree,sm_reachability,1.0,1.0,0.0,-0.00969,-0.0311,0.0,0.709,1.0,False,0.709
+dev_strengthened,228,degree,communicability,473.18446,454.24501,-18.93945,-10.5327,-14.5371,-8.17218,-4.446,0.0323,True,-4.446
+dev_strengthened,228,degree,betweenness_L1_shift,0.0,0.58923,0.58923,0.59953,0.4705,0.77718,-0.115,0.5161,False,-0.115
+dev_strengthened,228,degree,n_reachable_pairs,33514.0,30673.0,-2841.0,-1439.06667,-2379.35,-509.425,-2.447,0.0323,True,-2.447
+hub_edges,578,random,global_efficiency,0.23911,0.14631,-0.0928,-0.08158,-0.09009,-0.0741,-2.373,0.0323,True,-2.373
+hub_edges,578,random,mean_shortest_path,3.60605,4.41101,0.80497,0.19383,-0.10612,0.46528,3.48,0.0323,True,3.48
+hub_edges,578,random,largest_scc,154.0,123.0,-31.0,-53.9,-69.375,-43.0,2.876,1.0,False,2.876
+hub_edges,578,random,sm_reachability,1.0,0.66667,-0.33333,-0.06606,-0.13831,-0.01768,-7.524,0.0323,True,-7.524
+hub_edges,578,random,communicability,473.18446,472.97702,-0.20744,-68.9312,-70.40589,-67.22654,80.002,1.0,False,50.0
+hub_edges,578,random,betweenness_L1_shift,0.0,1.34508,1.34508,1.0644,0.98252,1.18282,4.727,0.0323,True,4.727
+hub_edges,578,random,n_reachable_pairs,33514.0,24318.0,-9196.0,-10725.33333,-13065.35,-8950.85,1.211,0.8387,False,1.211
+hub_edges,578,contact,global_efficiency,0.23911,0.14631,-0.0928,-0.08518,-0.09352,-0.07504,-1.527,0.0968,True,-1.527
+hub_edges,578,contact,mean_shortest_path,3.60605,4.41101,0.80497,0.09047,-0.25743,0.64318,2.672,0.0323,True,2.672
+hub_edges,578,contact,largest_scc,154.0,123.0,-31.0,-60.5,-71.275,-44.725,3.772,1.0,False,3.772
+hub_edges,578,contact,sm_reachability,1.0,0.66667,-0.33333,-0.09932,-0.16982,-0.02439,-5.444,0.0323,True,-5.444
+hub_edges,578,contact,communicability,473.18446,472.97702,-0.20744,-66.87595,-68.68471,-65.51873,67.192,1.0,False,50.0
+hub_edges,578,contact,betweenness_L1_shift,0.0,1.34508,1.34508,1.08035,1.01203,1.25371,4.087,0.0323,True,4.087
+hub_edges,578,contact,n_reachable_pairs,33514.0,24318.0,-9196.0,-11693.2,-13994.025,-8743.975,1.738,0.9355,False,1.738
+hub_edges,578,degree,global_efficiency,0.23911,0.14631,-0.0928,-0.0501,-0.05724,-0.04478,-11.541,0.0323,True,-11.541
+hub_edges,578,degree,mean_shortest_path,3.60605,4.41101,0.80497,0.66457,0.35821,1.056,0.705,0.2581,True,0.705
+hub_edges,578,degree,largest_scc,154.0,123.0,-31.0,-19.83333,-32.1,-13.725,-2.344,0.0968,True,-2.344
+hub_edges,578,degree,sm_reachability,1.0,0.66667,-0.33333,-0.02053,-0.07485,0.0,-14.305,0.0323,True,-14.305
+hub_edges,578,degree,communicability,473.18446,472.97702,-0.20744,-54.26351,-56.36051,-51.97301,45.231,1.0,False,45.231
+hub_edges,578,degree,betweenness_L1_shift,0.0,1.34508,1.34508,1.13083,0.84759,1.52322,1.089,0.1613,True,1.089
+hub_edges,578,degree,n_reachable_pairs,33514.0,24318.0,-9196.0,-3960.8,-6040.8,-2618.5,-5.971,0.0323,True,-5.971
+NT_GABA (inhibitory),42,random,global_efficiency,0.23911,0.23175,-0.00736,-0.0037,-0.00574,-0.00225,-3.547,0.0323,True,-3.547
+NT_GABA (inhibitory),42,random,mean_shortest_path,3.60605,3.67026,0.06421,0.04274,0.00769,0.10184,0.923,0.1935,True,0.923
+NT_GABA (inhibitory),42,random,largest_scc,154.0,151.0,-3.0,-0.86667,-3.0,0.0,-2.192,0.129,True,-2.192
+NT_GABA (inhibitory),42,random,sm_reachability,1.0,1.0,0.0,-0.00244,-0.02439,0.0,0.328,1.0,False,0.328
+NT_GABA (inhibitory),42,random,communicability,473.18446,471.94821,-1.23625,-0.8027,-3.00663,1.19737,-0.38,0.4194,True,-0.38
+NT_GABA (inhibitory),42,random,betweenness_L1_shift,0.0,0.27034,0.27034,0.15486,0.07758,0.33843,1.839,0.0968,True,1.839
+NT_GABA (inhibitory),42,random,n_reachable_pairs,33514.0,32865.0,-649.0,-190.66667,-676.375,0.0,-2.249,0.0968,True,-2.249
+NT_GABA (inhibitory),42,contact,global_efficiency,0.23911,0.23175,-0.00736,-0.00345,-0.00537,-0.00223,-4.634,0.0323,True,-4.634
+NT_GABA (inhibitory),42,contact,mean_shortest_path,3.60605,3.67026,0.06421,0.04038,-0.00087,0.08297,1.124,0.0968,True,1.124
+NT_GABA (inhibitory),42,contact,largest_scc,154.0,151.0,-3.0,-0.5,-2.55,0.0,-2.903,0.0645,True,-2.903
+NT_GABA (inhibitory),42,contact,sm_reachability,1.0,1.0,0.0,-0.00163,-0.02439,0.0,0.263,1.0,False,0.263
+NT_GABA (inhibitory),42,contact,communicability,473.18446,471.94821,-1.23625,-1.70309,-3.50052,0.47403,0.416,0.7419,False,0.416
+NT_GABA (inhibitory),42,contact,betweenness_L1_shift,0.0,0.27034,0.27034,0.1358,0.0701,0.24429,3.059,0.0323,True,3.059
+NT_GABA (inhibitory),42,contact,n_reachable_pairs,33514.0,32865.0,-649.0,-142.93333,-554.025,0.0,-2.978,0.0645,True,-2.978
+NT_GABA (inhibitory),42,degree,global_efficiency,0.23911,0.23175,-0.00736,-0.00488,-0.00751,-0.00274,-1.824,0.0645,True,-1.824
+NT_GABA (inhibitory),42,degree,mean_shortest_path,3.60605,3.67026,0.06421,0.04479,0.00243,0.10762,0.747,0.1613,True,0.747
+NT_GABA (inhibitory),42,degree,largest_scc,154.0,151.0,-3.0,-1.86667,-4.275,0.0,-0.778,0.3226,True,-0.778
+NT_GABA (inhibitory),42,degree,sm_reachability,1.0,1.0,0.0,-0.00163,-0.02439,0.0,0.263,1.0,False,0.263
+NT_GABA (inhibitory),42,degree,communicability,473.18446,471.94821,-1.23625,-0.63463,-2.08453,0.86106,-0.805,0.1935,True,-0.805
+NT_GABA (inhibitory),42,degree,betweenness_L1_shift,0.0,0.27034,0.27034,0.19277,0.11695,0.39298,1.063,0.1613,True,1.063
+NT_GABA (inhibitory),42,degree,n_reachable_pairs,33514.0,32865.0,-649.0,-389.53333,-845.175,0.0,-0.982,0.2581,True,-0.982
+NT_ACh,596,random,global_efficiency,0.23911,0.10127,-0.13784,-0.08888,-0.09694,-0.0804,-11.402,0.0323,True,-11.402
+NT_ACh,596,random,mean_shortest_path,3.60605,4.43506,0.82901,1.00732,0.59122,1.56887,-0.692,0.7742,False,-0.692
+NT_ACh,596,random,largest_scc,154.0,72.0,-82.0,-39.93333,-52.375,-28.725,-6.029,0.0323,True,-6.029
+NT_ACh,596,random,sm_reachability,1.0,0.5874,-0.4126,-0.15203,-0.28013,-0.04878,-4.043,0.0323,True,-4.043
+NT_ACh,596,random,communicability,473.18446,422.34461,-50.83985,-20.74233,-27.99004,-15.19664,-9.477,0.0323,True,-9.477
+NT_ACh,596,random,betweenness_L1_shift,0.0,1.30413,1.30413,1.27461,0.98315,1.80334,0.131,0.4194,True,0.131
+NT_ACh,596,random,n_reachable_pairs,33514.0,15683.0,-17831.0,-8325.9,-10127.075,-6310.45,-8.264,0.0323,True,-8.264
+NT_ACh,596,contact,global_efficiency,0.23911,0.10127,-0.13784,-0.08408,-0.09237,-0.07611,-11.587,0.0323,True,-11.587
+NT_ACh,596,contact,mean_shortest_path,3.60605,4.43506,0.82901,0.89491,0.59691,1.22993,-0.387,0.6452,False,-0.387
+NT_ACh,596,contact,largest_scc,154.0,72.0,-82.0,-36.16667,-47.275,-27.725,-8.199,0.0323,True,-8.199
+NT_ACh,596,contact,sm_reachability,1.0,0.5874,-0.4126,-0.12026,-0.26834,-0.04207,-5.237,0.0323,True,-5.237
+NT_ACh,596,contact,communicability,473.18446,422.34461,-50.83985,-23.09709,-29.49451,-17.7957,-9.051,0.0323,True,-9.051
+NT_ACh,596,contact,betweenness_L1_shift,0.0,1.30413,1.30413,1.13231,0.95014,1.36866,1.296,0.1935,True,1.296
+NT_ACh,596,contact,n_reachable_pairs,33514.0,15683.0,-17831.0,-7776.86667,-10075.0,-5989.25,-8.97,0.0323,True,-8.97
+NT_ACh,596,degree,global_efficiency,0.23911,0.10127,-0.13784,-0.10097,-0.10969,-0.09434,-8.232,0.0323,True,-8.232
+NT_ACh,596,degree,mean_shortest_path,3.60605,4.43506,0.82901,0.60275,0.26688,1.13218,1.056,0.1613,True,1.056
+NT_ACh,596,degree,largest_scc,154.0,72.0,-82.0,-54.63333,-65.375,-42.35,-4.612,0.0323,True,-4.612
+NT_ACh,596,degree,sm_reachability,1.0,0.5874,-0.4126,-0.27907,-0.37622,-0.17073,-2.41,0.0323,True,-2.41
+NT_ACh,596,degree,communicability,473.18446,422.34461,-50.83985,-36.55696,-40.6864,-33.1562,-6.358,0.0323,True,-6.358
+NT_ACh,596,degree,betweenness_L1_shift,0.0,1.30413,1.30413,1.14008,0.99954,1.4197,1.397,0.0968,True,1.397
+NT_ACh,596,degree,n_reachable_pairs,33514.0,15683.0,-17831.0,-12131.4,-14739.5,-10480.425,-5.036,0.0323,True,-5.036
+NT_Glu,485,random,global_efficiency,0.23911,0.12878,-0.11032,-0.06391,-0.07122,-0.0576,-11.594,0.0323,True,-11.594
+NT_Glu,485,random,mean_shortest_path,3.60605,3.92518,0.31913,0.79467,0.55641,1.06875,-3.293,1.0,False,-3.293
+NT_Glu,485,random,largest_scc,154.0,85.0,-69.0,-23.63333,-35.0,-14.35,-8.307,0.0323,True,-8.307
+NT_Glu,485,random,sm_reachability,1.0,0.36585,-0.63415,-0.01843,-0.05549,0.0,-29.845,0.0323,True,-29.845
+NT_Glu,485,random,communicability,473.18446,434.79848,-38.38598,-22.90905,-26.88778,-19.58541,-7.434,0.0323,True,-7.434
+NT_Glu,485,random,betweenness_L1_shift,0.0,1.07677,1.07677,1.08842,0.87605,1.31563,-0.087,0.4839,False,-0.087
+NT_Glu,485,random,n_reachable_pairs,33514.0,18644.0,-14870.0,-5004.13333,-7176.9,-3576.05,-9.809,0.0323,True,-9.809
+NT_Glu,485,contact,global_efficiency,0.23911,0.12878,-0.11032,-0.06696,-0.07436,-0.05871,-10.393,0.0323,True,-10.393
+NT_Glu,485,contact,mean_shortest_path,3.60605,3.92518,0.31913,0.87959,0.66539,1.16534,-3.463,1.0,False,-3.463
+NT_Glu,485,contact,largest_scc,154.0,85.0,-69.0,-25.83333,-36.55,-14.45,-7.073,0.0323,True,-7.073
+NT_Glu,485,contact,sm_reachability,1.0,0.36585,-0.63415,-0.02812,-0.07317,0.0,-30.161,0.0323,True,-30.161
+NT_Glu,485,contact,communicability,473.18446,434.79848,-38.38598,-18.20951,-22.35122,-14.39886,-8.339,0.0323,True,-8.339
+NT_Glu,485,contact,betweenness_L1_shift,0.0,1.07677,1.07677,1.10438,0.86194,1.34277,-0.195,0.5806,False,-0.195
+NT_Glu,485,contact,n_reachable_pairs,33514.0,18644.0,-14870.0,-5314.8,-7316.625,-3230.15,-8.49,0.0323,True,-8.49
+NT_Glu,485,degree,global_efficiency,0.23911,0.12878,-0.11032,-0.05561,-0.06145,-0.04822,-15.532,0.0323,True,-15.532
+NT_Glu,485,degree,mean_shortest_path,3.60605,3.92518,0.31913,0.80542,0.61663,1.03244,-4.236,1.0,False,-4.236
+NT_Glu,485,degree,largest_scc,154.0,85.0,-69.0,-15.3,-23.275,-7.625,-12.441,0.0323,True,-12.441
+NT_Glu,485,degree,sm_reachability,1.0,0.36585,-0.63415,-0.00793,-0.04527,0.0,-44.019,0.0323,True,-44.019
+NT_Glu,485,degree,communicability,473.18446,434.79848,-38.38598,-14.16706,-17.75179,-11.29019,-11.695,0.0323,True,-11.695
+NT_Glu,485,degree,betweenness_L1_shift,0.0,1.07677,1.07677,1.03694,0.85416,1.2483,0.343,0.2903,True,0.343
+NT_Glu,485,degree,n_reachable_pairs,33514.0,18644.0,-14870.0,-3167.03333,-4707.875,-1606.275,-13.39,0.0323,True,-13.39
+NT_mono,188,random,global_efficiency,0.23911,0.20231,-0.0368,-0.01848,-0.023,-0.01428,-7.579,0.0323,True,-7.579
+NT_mono,188,random,mean_shortest_path,3.60605,3.8972,0.29115,0.22865,0.12671,0.33291,1.016,0.1935,True,1.016
+NT_mono,188,random,largest_scc,154.0,135.0,-19.0,-4.56667,-8.825,-2.0,-6.942,0.0323,True,-6.942
+NT_mono,188,random,sm_reachability,1.0,1.0,0.0,-0.00488,-0.0311,0.0,0.413,1.0,False,0.413
+NT_mono,188,random,communicability,473.18446,469.86085,-3.3236,-6.50959,-10.90154,-1.46225,1.346,0.9355,False,1.346
+NT_mono,188,random,betweenness_L1_shift,0.0,0.77213,0.77213,0.47453,0.33092,0.67768,2.921,0.0323,True,2.921
+NT_mono,188,random,n_reachable_pairs,33514.0,29815.0,-3699.0,-990.03333,-1834.15,-349.8,-6.381,0.0323,True,-6.381
+NT_mono,188,contact,global_efficiency,0.23911,0.20231,-0.0368,-0.01918,-0.02241,-0.01607,-8.776,0.0323,True,-8.776
+NT_mono,188,contact,mean_shortest_path,3.60605,3.8972,0.29115,0.26536,0.13741,0.37533,0.387,0.4194,True,0.387
+NT_mono,188,contact,largest_scc,154.0,135.0,-19.0,-4.56667,-10.0,-1.0,-5.346,0.0323,True,-5.346
+NT_mono,188,contact,sm_reachability,1.0,1.0,0.0,-0.00312,-0.02439,0.0,0.384,1.0,False,0.384
+NT_mono,188,contact,communicability,473.18446,469.86085,-3.3236,-6.19682,-8.89167,-2.17729,1.678,0.9355,False,1.678
+NT_mono,188,contact,betweenness_L1_shift,0.0,0.77213,0.77213,0.53156,0.41774,0.69783,3.011,0.0323,True,3.011
+NT_mono,188,contact,n_reachable_pairs,33514.0,29815.0,-3699.0,-967.66667,-1869.8,-271.1,-5.147,0.0323,True,-5.147
+NT_mono,188,degree,global_efficiency,0.23911,0.20231,-0.0368,-0.0149,-0.01849,-0.01224,-12.459,0.0323,True,-12.459
+NT_mono,188,degree,mean_shortest_path,3.60605,3.8972,0.29115,0.21847,0.17283,0.28399,2.085,0.0645,True,2.085
+NT_mono,188,degree,largest_scc,154.0,135.0,-19.0,-1.33333,-3.55,0.0,-16.158,0.0323,True,-16.158
+NT_mono,188,degree,sm_reachability,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,False,0.0
+NT_mono,188,degree,communicability,473.18446,469.86085,-3.3236,2.22952,-2.02744,5.84235,-2.623,0.0323,True,-2.623
+NT_mono,188,degree,betweenness_L1_shift,0.0,0.77213,0.77213,0.41946,0.3134,0.59285,4.436,0.0323,True,4.436
+NT_mono,188,degree,n_reachable_pairs,33514.0,29815.0,-3699.0,-325.4,-799.625,0.0,-15.535,0.0323,True,-15.535
+sensory->inter,211,random,global_efficiency,0.23911,0.18843,-0.05068,-0.02055,-0.02497,-0.01618,-12.345,0.0323,True,-12.345
+sensory->inter,211,random,mean_shortest_path,3.60605,4.36045,0.75441,0.26049,0.17776,0.34299,10.135,0.0323,True,10.135
+sensory->inter,211,random,largest_scc,154.0,133.0,-21.0,-4.8,-10.55,-1.0,-5.952,0.0323,True,-5.952
+sensory->inter,211,random,sm_reachability,1.0,0.52033,-0.47967,0.0,0.0,0.0,-479674796747.967,0.0323,True,-50.0
+sensory->inter,211,random,communicability,473.18446,448.94376,-24.2407,-3.03244,-7.55461,2.34831,-7.873,0.0323,True,-7.873
+sensory->inter,211,random,betweenness_L1_shift,0.0,0.83269,0.83269,0.4751,0.3285,0.65565,3.771,0.0323,True,3.771
+sensory->inter,211,random,n_reachable_pairs,33514.0,28922.0,-4592.0,-1055.13333,-1964.75,-444.3,-7.862,0.0323,True,-7.862
+sensory->inter,211,contact,global_efficiency,0.23911,0.18843,-0.05068,-0.0217,-0.02756,-0.01749,-10.31,0.0323,True,-10.31
+sensory->inter,211,contact,mean_shortest_path,3.60605,4.36045,0.75441,0.26865,0.16626,0.39668,7.71,0.0323,True,7.71
+sensory->inter,211,contact,largest_scc,154.0,133.0,-21.0,-6.26667,-12.825,-2.725,-5.451,0.0323,True,-5.451
+sensory->inter,211,contact,sm_reachability,1.0,0.52033,-0.47967,0.0,0.0,0.0,-479674796747.967,0.0323,True,-50.0
+sensory->inter,211,contact,communicability,473.18446,448.94376,-24.2407,-0.46585,-4.35205,6.55722,-7.919,0.0323,True,-7.919
+sensory->inter,211,contact,betweenness_L1_shift,0.0,0.83269,0.83269,0.52751,0.39535,0.74747,2.682,0.0323,True,2.682
+sensory->inter,211,contact,n_reachable_pairs,33514.0,28922.0,-4592.0,-1248.0,-2597.725,-520.725,-6.496,0.0323,True,-6.496
+sensory->inter,211,degree,global_efficiency,0.23911,0.18843,-0.05068,-0.02466,-0.03015,-0.02045,-9.972,0.0323,True,-9.972
+sensory->inter,211,degree,mean_shortest_path,3.60605,4.36045,0.75441,0.31888,0.19562,0.40875,6.799,0.0323,True,6.799
+sensory->inter,211,degree,largest_scc,154.0,133.0,-21.0,-7.2,-11.55,-3.45,-5.244,0.0323,True,-5.244
+sensory->inter,211,degree,sm_reachability,1.0,0.52033,-0.47967,0.0,0.0,0.0,-479674796747.967,0.0323,True,-50.0
+sensory->inter,211,degree,communicability,473.18446,448.94376,-24.2407,-11.08749,-14.0976,-7.90951,-7.357,0.0323,True,-7.357
+sensory->inter,211,degree,betweenness_L1_shift,0.0,0.83269,0.83269,0.58602,0.38385,0.77221,2.14,0.0323,True,2.14
+sensory->inter,211,degree,n_reachable_pairs,33514.0,28922.0,-4592.0,-1484.8,-2320.975,-698.575,-6.542,0.0323,True,-6.542
+inter->motor,110,random,global_efficiency,0.23911,0.22295,-0.01615,-0.01047,-0.01432,-0.00797,-3.319,0.0323,True,-3.319
+inter->motor,110,random,mean_shortest_path,3.60605,3.87598,0.26993,0.13617,0.07984,0.22035,3.213,0.0323,True,3.213
+inter->motor,110,random,largest_scc,154.0,151.0,-3.0,-2.23333,-5.0,0.0,-0.627,0.4194,True,-0.627
+inter->motor,110,random,sm_reachability,1.0,0.75,-0.25,-0.00244,-0.02439,0.0,-33.265,0.0323,True,-33.265
+inter->motor,110,random,communicability,473.18446,479.33744,6.15298,-3.47254,-6.20434,-0.32219,5.335,1.0,False,5.335
+inter->motor,110,random,betweenness_L1_shift,0.0,0.63715,0.63715,0.33059,0.21281,0.52312,3.167,0.0323,True,3.167
+inter->motor,110,random,n_reachable_pairs,33514.0,33043.0,-471.0,-524.53333,-1022.775,-158.0,0.217,0.6774,False,0.217
+inter->motor,110,contact,global_efficiency,0.23911,0.22295,-0.01615,-0.01042,-0.01387,-0.00734,-2.965,0.0323,True,-2.965
+inter->motor,110,contact,mean_shortest_path,3.60605,3.87598,0.26993,0.13101,0.08469,0.22063,3.812,0.0323,True,3.812
+inter->motor,110,contact,largest_scc,154.0,151.0,-3.0,-2.6,-5.0,0.0,-0.259,0.4839,True,-0.259
+inter->motor,110,contact,sm_reachability,1.0,0.75,-0.25,-0.00569,-0.02439,0.0,-23.285,0.0323,True,-23.285
+inter->motor,110,contact,communicability,473.18446,479.33744,6.15298,-1.99587,-4.9953,0.61196,4.975,1.0,False,4.975
+inter->motor,110,contact,betweenness_L1_shift,0.0,0.63715,0.63715,0.32141,0.22254,0.49751,3.751,0.0323,True,3.751
+inter->motor,110,contact,n_reachable_pairs,33514.0,33043.0,-471.0,-541.36667,-1137.375,-1.0,0.21,0.5806,False,0.21
+inter->motor,110,degree,global_efficiency,0.23911,0.22295,-0.01615,-0.00839,-0.01066,-0.00639,-6.343,0.0323,True,-6.343
+inter->motor,110,degree,mean_shortest_path,3.60605,3.87598,0.26993,0.12284,0.0781,0.23121,3.541,0.0645,True,3.541
+inter->motor,110,degree,largest_scc,154.0,151.0,-3.0,-0.96667,-3.0,0.0,-2.035,0.129,True,-2.035
+inter->motor,110,degree,sm_reachability,1.0,0.75,-0.25,0.0,0.0,0.0,-250000000000.0,0.0323,True,-50.0
+inter->motor,110,degree,communicability,473.18446,479.33744,6.15298,0.85818,-1.9539,3.96975,3.176,1.0,False,3.176
+inter->motor,110,degree,betweenness_L1_shift,0.0,0.63715,0.63715,0.28037,0.17448,0.49043,3.857,0.0645,True,3.857
+inter->motor,110,degree,n_reachable_pairs,33514.0,33043.0,-471.0,-195.83333,-557.9,0.0,-1.445,0.1613,True,-1.445
+sensory->motor(direct),14,random,global_efficiency,0.23911,0.2386,-0.00051,-0.00127,-0.00225,-0.00067,1.401,1.0,False,1.401
+sensory->motor(direct),14,random,mean_shortest_path,3.60605,3.61103,0.00498,0.01686,0.00011,0.06244,-0.734,0.9355,False,-0.734
+sensory->motor(direct),14,random,largest_scc,154.0,154.0,0.0,-0.23333,-1.275,0.0,0.463,1.0,False,0.463
+sensory->motor(direct),14,random,sm_reachability,1.0,1.0,0.0,-0.00081,-0.00671,0.0,0.183,1.0,False,0.183
+sensory->motor(direct),14,random,communicability,473.18446,471.49502,-1.68944,-0.28826,-1.19432,0.88512,-2.139,0.0323,True,-2.139
+sensory->motor(direct),14,random,betweenness_L1_shift,0.0,0.02214,0.02214,0.0746,0.0361,0.21538,-0.961,1.0,False,-0.961
+sensory->motor(direct),14,random,n_reachable_pairs,33514.0,33514.0,0.0,-52.3,-241.225,0.0,0.569,1.0,False,0.569
+sensory->motor(direct),14,contact,global_efficiency,0.23911,0.2386,-0.00051,-0.00123,-0.00195,-0.0006,1.654,1.0,False,1.654
+sensory->motor(direct),14,contact,mean_shortest_path,3.60605,3.61103,0.00498,0.01691,0.00177,0.04651,-1.001,0.9032,False,-1.001
+sensory->motor(direct),14,contact,largest_scc,154.0,154.0,0.0,-0.13333,-1.0,0.0,0.386,1.0,False,0.386
+sensory->motor(direct),14,contact,sm_reachability,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,False,0.0
+sensory->motor(direct),14,contact,communicability,473.18446,471.49502,-1.68944,-0.37708,-1.20502,0.4269,-2.525,0.0323,True,-2.525
+sensory->motor(direct),14,contact,betweenness_L1_shift,0.0,0.02214,0.02214,0.07072,0.02656,0.16826,-1.197,1.0,False,-1.197
+sensory->motor(direct),14,contact,n_reachable_pairs,33514.0,33514.0,0.0,-36.96667,-158.275,0.0,0.547,1.0,False,0.547
+sensory->motor(direct),14,degree,global_efficiency,0.23911,0.2386,-0.00051,-0.00123,-0.0023,-0.00078,1.509,1.0,False,1.509
+sensory->motor(direct),14,degree,mean_shortest_path,3.60605,3.61103,0.00498,0.01543,-0.00326,0.04347,-0.925,0.871,False,-0.925
+sensory->motor(direct),14,degree,largest_scc,154.0,154.0,0.0,-0.23333,-2.0,0.0,0.411,1.0,False,0.411
+sensory->motor(direct),14,degree,sm_reachability,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,False,0.0
+sensory->motor(direct),14,degree,communicability,473.18446,471.49502,-1.68944,-0.4938,-1.08661,0.21771,-3.269,0.0323,True,-3.269
+sensory->motor(direct),14,degree,betweenness_L1_shift,0.0,0.02214,0.02214,0.07221,0.03356,0.15758,-1.479,1.0,False,-1.479
+sensory->motor(direct),14,degree,n_reachable_pairs,33514.0,33514.0,0.0,-40.93333,-310.0,0.0,0.428,1.0,False,0.428

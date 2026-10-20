@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+/data/
+/work/
+*.npz
+*.npy
+*.pt
+*.parquet
+*.log
+grn/CelEsT-app/
+lineage/jtauber_lineage/

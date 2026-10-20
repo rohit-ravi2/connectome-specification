@@ -1,0 +1,24 @@
+====================================================================================
+STAGE 1a — ESTIMATION-NOISE (4 L1 replicates: the only n>2 for one developmental state)
+====================================================================================
+  L1 eligible pairs 4185 | present in >=1 L1 animal: 982
+  2-animal reproducibility FLIP RATE across disjoint pairs (1&2 vs 3&4): all-eligible 0.049 | among-present 0.211
+  Cohen kappa(2-anim repro pair A, pair B) = 0.713  (1=stable, 0=noise)
+  of edges called '2-animal reproducible' (pair 1&2): 0.94 are stable (>=3/4 L1 animals), 0.06 are 2-animal flukes
+  => ESTIMATION-NOISE FLOOR: ~0.29 of apparent 2-animal reproducibility is sampling artifact (kappa-based)
+
+====================================================================================
+STAGE 1b — THREE-REGIME AUC + CORRECTED TARGET (Cook = corrected denominator)
+====================================================================================
+  predictor               in-sample  neuron-disj CV  COOK(corrected)  overfit-gap x-animal-gap
+  contact-area                0.855           0.763            0.746        0.092        0.017
+  spatial(skeleton)           1.000           0.788            0.751        0.212        0.037
+  topology(contact-graph)      0.989           0.729            0.698        0.260        0.031
+
+====================================================================================
+CORRECTED TARGET: the denominator for all downstream scoring is the COOK-held-out AUC (~0.75 in-sample
+collapses to the Cook numbers above). Overfit-gap = capacity; x-animal-gap includes the estimation-noise floor.
+ESTIMATION-NOISE FLOOR: ~29% of 2-animal 'reproducibility' is sampling artifact (kappa 0.71, flip 0.21).
+FLAG: prior results scored against in-sample ~0.75 were scored against an inflated target; the real bar is the
+      Cook column. Spatial's Cook number is its true difficulty-adjusted score.
+====================================================================================

@@ -1,0 +1,11 @@
+(1) homeobox genes in CeNGEN: 80 (ceh-* 50 + named 30)
+    homeobox genes variably expressed (3..125 classes): 75
+    effector panel genes in CeNGEN: 406
+    random-control gene pool (non-HB, non-effector, variable): 8948
+
+============================================================================
+(2) homeobox (80 genes)   -> effector repertoire: mean per-gene AUC = 0.6510 (n=366)
+    random 80 non-HB genes -> effector repertoire: mean AUC = 0.6369 ± 0.0075
+    Δ homeobox - random = +0.0141
+============================================================================
+MARGINAL — small homeobox-specific edge; full test worth running but expect a modest result

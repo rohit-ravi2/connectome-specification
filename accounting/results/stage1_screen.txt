@@ -1,0 +1,122 @@
+annotated interactome pairs (Nawrocka): 166 | NPP-GPCR: NOT on disk (coverage = adhesion/guidance only)
+FUNNEL: 166 annotated -> 120 both-expressed -> 95 contrast-bearing(min-partner 5-60%) -> 88 complementary(corr<0.20)
+  (sanity: Slit-Robo breadth slt-1=0.10 sax-3=0.93 corr=+0.09 -> in shortlist: True)
+
+[CALIBRATION]
+  synthetic 80%-FN pair-rule: enrich=+0.328 z_vs_random=+4.7 (want>3)
+  random pair-rules max|z|=1.4 (want<3)
+  innexin->GJ positive control: 5/17 homotypic rules expr-perm-z>2
+
+==============================================================================================
+STAGE 1 SCREEN — shortlisted complementary pairs x 4 structures (expr-perm-z / region-z)
+==============================================================================================
+pair                 max@      FN(zE/zR)      FP(zE/zR)      detcore(zE/zR)   GJ(zE/zR)    
+MIG-13~MIG-6         FP           -/   -       4.3/ 3.1       1.9/ 1.2         0.1/ 0.2    
+SCL-10~FMIL-1        FP        -1.2/-1.0       4.1/ 4.5       3.5/ 4.0         3.3/ 3.1    
+/~UNC-71             FP         2.7/ 0.0       4.0/ 0.9       2.9/ 0.9        -0.6/ 0.4    
+LIN-12~LAG-2         FP           -/   -       3.9/ 4.3       2.2/ 2.1        -1.0/-0.7    
+SLT-1~SAX-3          FN         3.4/ 2.0       0.4/ 0.0       1.9/ 1.1        -1.5/-1.0    
+ZIG-2~DAF-28         FN         2.8/ 4.6      -0.8/-1.1      -0.7/-0.8        -0.9/-1.4    
+FMIL-1~OIG-1         det_core   0.5/ 0.3       2.1/ 2.2       2.6/ 2.7         1.2/ 1.3    
+UNC-5~PXN-1          FN         2.6/ 1.7      -0.8/-1.0       0.2/-0.1        -0.1/ 0.2    
+/~CHHY-1             FP         0.7/ 0.5       2.5/ 2.9       1.9/ 2.0        -1.2/-0.9    
+SCL-10~EFN-4         FP        -2.4/-2.2       2.5/ 2.9       1.3/ 1.5         1.2/ 0.9    
+/~ZIG-5              FP         0.4/ 0.5       2.4/ 2.4       1.8/ 1.7         0.2/-0.1    
+NDNF-1~EGL-15        FP         0.4/ 0.2       2.4/ 2.4       2.3/ 1.9         0.6/ 0.9    
+/~NID-1              FN         2.4/ 1.9       1.2/ 1.3       1.4/ 1.4        -0.8/-0.7    
+FMIL-1~UNC-40        det_core   0.2/ 0.7       2.3/ 2.4       2.4/ 2.8         1.2/ 1.2    
+CDH-8~CDH-9          GJ         1.1/ 1.3      -0.8/-0.7       1.6/ 1.9         2.3/ 1.8    
+FMIL-1~SOL-1         det_core  -0.5/-0.2       1.8/ 1.9       2.3/ 2.9         1.0/ 0.9    
+/~/                  FP         0.1/ 0.3       2.2/ 2.2       1.7/ 1.9        -0.7/-0.9    
+FLR-2~/              FN         2.1/ 1.6      -2.2/-1.7      -1.4/-1.2        -1.3/-0.9    
+LECT-2~/             FN         2.1/ 1.5       0.5/-0.2       1.2/ 0.5        -1.0/-1.1    
+ZIG-4~MAB-20         det_core   0.4/ 0.6       1.7/ 2.0       2.1/ 2.2         1.3/ 1.5    
+/~DGN-1              det_core  -0.0/ 0.1       1.7/ 2.2       1.9/ 2.4        -0.3/-0.5    
+/~/                  det_core   1.0/ 0.8       1.6/ 1.5       1.8/ 1.4        -1.8/-1.8    
+/~/                  FP        -0.6/-0.0       1.8/ 2.4       1.4/ 1.9        -1.9/-2.5    
+FLR-2~/              FN         1.7/ 1.5      -1.4/-1.2      -1.8/-1.4        -2.1/-1.8    
+PLX-2~MAB-20         FN         1.6/ 1.3      -0.1/-0.4       0.5/ 0.1        -0.6/-1.2    
+SPE-9~NAS-39         GJ        -0.3/-0.0       1.3/ 1.6       0.2/ 0.3         1.5/ 1.6    
+PTP-4~FMIL-1         FP        -0.1/ 0.3       1.5/ 1.4       1.4/ 1.7         0.4/ 0.6    
+LRON-6~/             FN         1.5/ 2.5      -0.7/-0.6      -0.6/-0.1        -0.4/-0.3    
+IGDB-2~ZIG-5         FP         0.6/ 0.7       1.5/ 1.7       0.9/ 0.8         0.3/-0.2    
+/~PTP-3              GJ        -0.4/ 0.1      -0.4/ 0.0       0.2/ 0.4         1.4/ 1.1    
+MIG-13~/             GJ         0.5/ 0.3      -0.7/-0.6      -0.4/-0.2         1.4/ 1.2    
+/~/                  FP         0.3/ 0.6       1.4/ 1.7       0.8/ 0.9        -0.7/-1.1    
+/~PTP-4              FN         1.4/ 1.0       1.2/ 1.2       1.3/ 1.1        -1.6/-1.7    
+NID-1~KAL-1          FP         0.2/-0.4       1.2/ 0.4       0.4/-0.3        -0.7/-0.5    
+EGL-15~/             FP         0.9/ 0.8       1.1/ 1.2       0.8/ 0.9        -0.1/-0.1    
+ZIG-9~LECT-2         GJ        -1.4/-1.2       0.6/ 1.1       0.0/ 0.3         1.1/ 0.9    
+LAG-2~INS-18         det_core   0.5/ 1.5      -0.4/-0.2       1.1/ 1.8        -0.7/-0.8    
+DEP-1~CDH-1          FP        -1.9/-0.9       1.0/ 1.7       0.3/ 1.1        -0.1/-0.6    
+CDH-3~CDH-1          FP        -0.3/-0.6       0.9/ 0.7       0.7/ 0.9        -0.3/ 0.2    
+LRON-11~LRLP-1       GJ        -2.0/-2.2      -0.6/-0.7      -1.7/-1.8         0.9/ 1.0    
+VAB-1~EFN-2          FN         0.9/ 0.4      -2.3/-2.4      -1.5/-1.7        -0.6/-0.5    
+LECT-2~MIG-13        det_core  -1.2/-1.2       0.3/-0.4       0.9/ 0.5        -0.6/-0.6    
+LAG-2~MIG-13         det_core  -0.5/-0.3      -1.5/-1.4       0.9/ 1.1        -0.3/-0.1    
+SYM-1~LRON-7         GJ        -1.5/-1.3      -0.2/-0.2      -1.2/-1.4         0.9/-0.2    
+LRON-6~/             FN         0.8/ 1.4      -0.3/ 0.2      -0.6/-0.2        -0.6/-0.7    
+DMA-1~LRLP-1         GJ        -0.2/-0.0      -1.1/-1.5      -0.5/-0.6         0.8/ 0.5    
+EFN-4~MAB-20         FP        -1.0/-1.1       0.8/ 0.6      -0.1/-0.3         0.2/-0.0    
+/~MIG-6              FP        -0.4/-0.6       0.7/ 1.2       0.4/ 0.3         0.6/ 1.0    
+/~PXN-2              FN         0.7/ 0.3      -0.2/-0.3       0.2/ 0.0        -0.6/-0.2    
+LECT-2~PTP-4         GJ        -0.2/ 0.0      -0.0/-0.4       0.3/ 0.2         0.7/ 0.5    
+LRON-11~TEN-1        GJ        -1.4/-1.6       0.2/ 0.2      -1.6/-1.7         0.7/ 0.5    
+/~RIG-5              det_core  -0.8/-0.2       0.2/ 1.0       0.7/ 1.4         0.4/ 0.3    
+/~UNC-71             FN         0.7/ 1.1      -1.0/-0.9      -1.4/-1.2        -1.0/-1.4    
+INS-1~ZIG-5          FP        -1.0/-1.0       0.7/ 0.8       0.2/ 0.2        -0.5/-0.6    
+/~PTP-4              det_core   0.6/ 0.8      -0.1/ 0.2       0.6/ 0.8         0.6/ 0.8    
+PLX-1~SMP-2          FN         0.6/ 0.8      -1.1/-1.2      -1.1/-1.2         0.0/-0.3    
+EFN-4~SAX-3          FP        -1.1/-1.2       0.6/ 0.5      -0.4/-0.4        -0.2/-0.2    
+UNC-5~UNC-6          GJ        -0.5/-0.2      -1.3/-1.3      -1.7/-1.6         0.5/ 0.1    
+UNC-6~UNC-40         FN         0.5/ 1.0      -0.5/-0.6      -0.6/-0.7        -0.1/-0.7    
+/~/                  GJ        -0.8/-1.0      -0.5/-0.3       0.1/ 0.1         0.5/ 0.1    
+LECT-2~FMIL-1        det_core  -0.9/-0.9      -0.9/-1.0       0.5/ 0.5         0.1/-0.2    
+ZIG-9~/              GJ        -1.4/-0.8       0.1/ 0.4      -0.2/ 0.0         0.4/ 0.1    
+PTP-4~/              FP        -1.1/-1.1       0.4/ 0.7       0.1/ 0.3        -0.4/-0.0    
+CLR-1~/              GJ        -0.8/ 0.2      -1.1/-0.5      -1.3/-0.6         0.3/ 0.1    
+HMR-1~RIG-5          GJ        -0.7/-0.4      -0.8/-0.5      -0.2/-0.1         0.2/ 0.3    
+LRON-13~CDH-1        GJ        -2.0/-1.7      -1.4/-1.2      -1.1/-0.6         0.2/ 0.5    
+RIG-5~PTP-3          GJ        -0.8/-0.6      -0.6/-0.5      -0.2/-0.2         0.2/ 0.2    
+RIG-5~ZIG-8          GJ        -1.4/-1.0      -0.7/-0.5      -0.8/-0.3         0.2/ 0.2    
+VAB-1~EFN-4          FN         0.2/-0.1      -0.8/-1.4      -1.0/-1.7        -1.4/-1.4    
+/~ZIG-8              det_core  -0.0/ 0.3      -0.2/ 0.1       0.2/ 0.5        -0.4/-0.6    
+PLX-1~SMP-1          FP         0.0/-0.5       0.1/-0.3      -0.5/-0.9        -0.9/-0.7    
+/~RIG-5              GJ        -0.9/-0.4      -1.0/-0.8      -1.4/-1.4         0.1/-0.2    
+SYM-1~/              GJ        -1.9/-1.7      -0.8/-1.0      -2.2/-2.2         0.1/-0.9    
+LRON-9~MUP-4         GJ        -2.0/-1.9      -0.1/-0.2      -0.4/-0.5         0.0/-0.2    
+TOL-1~KAL-1          GJ        -0.1/-0.5      -0.8/-0.8      -1.6/-2.0        -0.0/-0.1    
+RIG-1~CLR-1          GJ        -1.4/-1.3      -0.3/-0.5      -0.7/-0.6        -0.0/-0.3    
+RIG-1~/              GJ        -0.2/ 0.4      -0.8/-0.5      -0.3/ 0.2        -0.0/-0.2    
+NLR-1~RIG-5          GJ        -1.3/-0.9      -0.6/-0.5      -0.8/-0.5        -0.1/-0.4    
+/~SOL-1              FN        -0.1/ 0.4      -0.8/-0.4      -0.8/-0.4        -1.0/-1.1    
+/~LRON-14            FN        -0.2/-0.0      -1.0/-0.8      -1.8/-1.9        -0.8/-0.7    
+RIG-5~UNC-71         GJ        -0.7/-0.5      -1.0/-1.1      -0.8/-0.7        -0.2/-0.2    
+/~KAL-1              FP        -0.3/ 0.4      -0.2/ 0.1      -1.0/-0.5        -0.3/-0.2    
+SAX-3~KAL-1          GJ        -0.6/-0.9      -0.6/-0.3      -1.2/-1.3        -0.3/-0.3    
+/~UNC-71             GJ        -0.6/-0.1      -1.2/-0.8      -1.1/-0.7        -0.4/-0.5    
+IGDB-2~LRON-13       GJ        -1.6/-1.6      -0.6/-0.3      -1.1/-0.7        -0.5/-0.3    
+PLX-1~SAX-3          FP        -1.0/-0.9      -0.5/-0.3      -1.4/-1.4        -1.9/-1.9    
+IGCM-4~SAX-3         GJ        -1.6/-1.2      -0.9/-0.6      -1.1/-0.7        -0.8/-0.6    
+OIG-4~/              GJ        -1.6/-1.1      -2.1/-2.0      -2.2/-1.8        -1.4/-1.5    
+
+SURVIVE BOTH NULLS (expr-perm>2 AND region>2) on some structure: 18
+   MIG-13~MIG-6         @ FP        expr-perm-z=+4.3 region-z=+3.1 n=56 enrich=+0.067  -> STAGE-2 CANDIDATE
+   SCL-10~FMIL-1        @ FP        expr-perm-z=+4.1 region-z=+4.5 n=1139 enrich=+0.027  -> STAGE-2 CANDIDATE
+   SCL-10~FMIL-1        @ det_core  expr-perm-z=+3.5 region-z=+4.0 n=1457 enrich=+0.056  -> STAGE-2 CANDIDATE
+   SCL-10~FMIL-1        @ GJ        expr-perm-z=+3.3 region-z=+3.1 n=1457 enrich=+0.046  -> STAGE-2 CANDIDATE
+   LIN-12~LAG-2         @ FP        expr-perm-z=+3.9 region-z=+4.3 n=36 enrich=+0.117  -> STAGE-2 CANDIDATE
+   LIN-12~LAG-2         @ det_core  expr-perm-z=+2.2 region-z=+2.1 n=39 enrich=+0.120  -> STAGE-2 CANDIDATE
+   ZIG-2~DAF-28         @ FN        expr-perm-z=+2.8 region-z=+4.6 n=10 enrich=+0.517  -> STAGE-2 CANDIDATE
+   FMIL-1~OIG-1         @ FP        expr-perm-z=+2.1 region-z=+2.2 n=2176 enrich=+0.012  -> STAGE-2 CANDIDATE
+   FMIL-1~OIG-1         @ det_core  expr-perm-z=+2.6 region-z=+2.7 n=2610 enrich=+0.037  -> STAGE-2 CANDIDATE
+   /~CHHY-1             @ FP        expr-perm-z=+2.5 region-z=+2.9 n=530 enrich=+0.033  -> STAGE-2 CANDIDATE
+   SCL-10~EFN-4         @ FP        expr-perm-z=+2.5 region-z=+2.9 n=1232 enrich=+0.017  -> STAGE-2 CANDIDATE
+   /~ZIG-5              @ FP        expr-perm-z=+2.4 region-z=+2.4 n=710 enrich=+0.022  -> STAGE-2 CANDIDATE
+   NDNF-1~EGL-15        @ FP        expr-perm-z=+2.4 region-z=+2.4 n=397 enrich=+0.024  -> STAGE-2 CANDIDATE
+   FMIL-1~UNC-40        @ FP        expr-perm-z=+2.3 region-z=+2.4 n=3266 enrich=+0.013  -> STAGE-2 CANDIDATE
+   FMIL-1~UNC-40        @ det_core  expr-perm-z=+2.4 region-z=+2.8 n=3872 enrich=+0.034  -> STAGE-2 CANDIDATE
+   FMIL-1~SOL-1         @ det_core  expr-perm-z=+2.3 region-z=+2.9 n=3337 enrich=+0.031  -> STAGE-2 CANDIDATE
+   /~/                  @ FP        expr-perm-z=+2.2 region-z=+2.2 n=360 enrich=+0.023  -> STAGE-2 CANDIDATE
+   ZIG-4~MAB-20         @ det_core  expr-perm-z=+2.1 region-z=+2.2 n=2152 enrich=+0.036  -> STAGE-2 CANDIDATE
+==============================================================================================

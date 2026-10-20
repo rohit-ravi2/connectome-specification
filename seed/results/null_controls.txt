@@ -1,0 +1,17 @@
+========================================================================================
+CONTROL 4 — THRESHOLD ROBUSTNESS (strong core = present in both adults, min-synapse >= thr)
+========================================================================================
+   thr | core N |  rate | ceiling AUC (7<->8) | geometry AUC | geom==ceiling?
+     1 |   1257 | 0.250 |               0.819 |        0.839 |           YES
+     2 |    784 | 0.156 |               0.843 |        0.879 |           YES
+     4 |    458 | 0.091 |               0.880 |        0.905 |           YES
+
+========================================================================================
+MODEL 3 — BIOLOGICAL NT CLASS-PAIR compatibility over geometry (both-adults core)
+========================================================================================
+  geometry                               bits=   3079  AUC=0.8284
+  geometry + NT class-pair (9 NT classes) bits=   2947  AUC=0.8431
+
+  NT class-pair lift over geometry: ΔAUC=+0.0147
+  permuted-NT control: mean ΔAUC=-0.0002 ± 0.0012  -> real NT BEATS shuffled
+========================================================================================

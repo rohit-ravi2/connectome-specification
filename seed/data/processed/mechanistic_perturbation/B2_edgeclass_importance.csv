@@ -1,0 +1,17 @@
+edge_class,n_edges,frac_of_core,evidence_signed_logp,n_key_metrics_sig_disruptive,sm_reach_frac_lost,global_eff_pct_drop,largest_scc_nodes_lost,sm_reach_p_contact,geff_p_contact,robust_vs_degree_null,evidence_per_100edges
+NT_ACh,596,0.406,5.963,4,0.4126,57.65,82.0,0.0323,0.0323,True,1.001
+NT_Glu,485,0.33,5.963,4,0.6341,46.14,69.0,0.0323,0.0323,True,1.229
+sensory->inter,211,0.144,5.963,4,0.4797,21.2,21.0,0.0323,0.0323,True,2.826
+post_embryonic_integration,185,0.126,5.963,4,0.3496,20.21,23.0,0.0323,0.0323,True,3.223
+transient_in_core (0 preadult groups),251,0.171,4.472,3,-0.0,17.5,17.0,1.0,0.0323,True,1.782
+dev_strengthened,228,0.155,3.996,2,-0.0,13.3,9.0,1.0,0.0323,True,1.753
+weak_core (exactly 1 syn),566,0.385,3.394,2,-0.0,45.6,63.0,1.0,0.0323,True,0.6
+inter->motor,110,0.075,3.297,2,0.25,6.75,3.0,0.0323,0.0323,True,2.997
+NT_mono,188,0.128,2.953,2,-0.0,15.39,19.0,1.0,0.0323,True,1.571
+NT_GABA (inhibitory),42,0.029,2.552,1,-0.0,3.08,3.0,1.0,0.0323,False,6.076
+hub_edges,578,0.393,2.505,1,0.3333,38.81,31.0,0.0323,0.0968,True,0.433
+preadult_persistent (>=2 groups),999,0.68,1.491,1,0.2195,60.8,52.0,1.0,1.0,False,0.149
+sensory->motor(direct),14,0.01,1.491,1,-0.0,0.21,-0.0,1.0,1.0,False,10.65
+stable_class,760,0.517,0.753,0,0.122,36.44,27.0,0.5484,1.0,False,0.099
+strong_core4 (>=4 syn),522,0.355,0.345,0,0.0732,20.93,11.0,0.4516,1.0,False,0.066
+strong_core2 (>=2 syn),903,0.615,0.255,0,0.2195,52.39,50.0,0.5806,1.0,False,0.028

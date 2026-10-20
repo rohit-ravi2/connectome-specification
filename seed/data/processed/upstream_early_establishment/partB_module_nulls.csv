@@ -1,0 +1,16 @@
+target,category,n_genes,real_ADD,null_mean,null_sd,z,p_ge,beats_null
+first_synapse=L1,adhesion_recognition,91,0.0089,0.0046,0.003,1.46,0.12,no
+first_synapse=L1,axon_guidance,110,0.0065,0.0065,0.0025,0.001,0.44,no
+first_synapse=L1,nt_fate_receptor,146,0.0118,0.0054,0.0039,1.672,0.08,no
+first_synapse=L1,synaptogenesis,186,0.0101,0.0055,0.0023,2.002,0.0,YES
+first_synapse=L1,terminal_selector_identity,58,-0.0061,0.0024,0.0038,-2.232,1.0,no
+L1_reproducible(>=2/4),adhesion_recognition,91,0.0058,-0.0017,0.0012,6.299,0.0,YES
+L1_reproducible(>=2/4),axon_guidance,110,0.003,-0.0009,0.0023,1.753,0.08,no
+L1_reproducible(>=2/4),nt_fate_receptor,146,0.0093,-0.0024,0.0014,8.264,0.0,YES
+L1_reproducible(>=2/4),synaptogenesis,186,0.004,-0.0015,0.0017,3.189,0.0,YES
+L1_reproducible(>=2/4),terminal_selector_identity,58,-0.0041,-0.0009,0.0023,-1.413,0.92,no
+preadult_persistent(>=2grp),adhesion_recognition,91,0.0164,0.0011,0.0026,5.965,0.0,YES
+preadult_persistent(>=2grp),axon_guidance,110,0.0146,0.0024,0.0026,4.709,0.0,YES
+preadult_persistent(>=2grp),nt_fate_receptor,146,0.017,-0.0003,0.0025,7.032,0.0,YES
+preadult_persistent(>=2grp),synaptogenesis,186,0.0114,0.0018,0.0022,4.436,0.0,YES
+preadult_persistent(>=2grp),terminal_selector_identity,58,-0.0015,-0.0002,0.0029,-0.449,0.64,no

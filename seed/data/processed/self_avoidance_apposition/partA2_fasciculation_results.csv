@@ -1,0 +1,47 @@
+metric,value,note
+A2.2_frac_comm_in_top5,0.7758,vs_rest=0.2131 enrich=3.64x
+A2.2_frac_family_in_top5,0.089,vs_rest=0.0162 enrich=5.51x
+A2.2_frac_headmotor_in_top5,0.1637,vs_rest=0.0626 enrich=2.62x
+A2.2_frac_comm_in_top10,0.6988,vs_rest=0.1904 enrich=3.67x
+A2.2_frac_family_in_top10,0.0553,vs_rest=0.0159 enrich=3.48x
+A2.2_frac_headmotor_in_top10,0.1337,vs_rest=0.0603 enrich=2.22x
+A2.2_frac_comm_in_top20,0.5281,vs_rest=0.1696 enrich=3.11x
+A2.2_frac_family_in_top20,0.041,vs_rest=0.0145 enrich=2.83x
+A2.2_frac_headmotor_in_top20,0.1097,vs_rest=0.0571 enrich=1.92x
+A2.2_cv_r2_base,0.1677,"deg+birth, neuron-disjoint 5fold"
+A2.2_cv_r2_plus_family,0.1719,dR2=+0.0042 ANATOMICAL(non-circular)
+A2.2_cv_r2_plus_comm,0.2228,dR2=+0.0551 CIRCULAR
+A2.2_cv_r2_degonly,0.0358,
+A2.2_cv_r2_deg_plus_family,0.0449,dR2=+0.0091 family beyond degree
+A2.3_n_hc_nonsyn,78.0,
+A2.3_frac_comm,0.7564,vs_all_hc=0.6988
+A2.3_frac_family,0.1795,vs_all_hc=0.0553
+A2.3_frac_headmotor,0.4487,vs_all_hc=0.1337
+A2.3_residuals_in_comm6,14.0,sublateral/head-motor
+A2.3_residuals_in_comm0,11.0,mixed
+A2.3_residuals_in_comm2,9.0,mixed
+A2.3_residuals_in_comm3,9.0,mixed
+A2.3_residuals_in_comm4,8.0,mixed
+A2.3_residuals_in_comm1,4.0,mixed
+A2.3_residuals_in_comm5,2.0,mixed
+A2.3_residuals_in_comm7,1.0,mixed
+A2.3_residuals_in_comm8,1.0,mixed
+A2.4_frac_adultHC_topdecile_at_D1,0.4724,age~0h
+A2.4_frac_adultHC_topdecile_at_D2,0.5045,age~5h
+A2.4_frac_adultHC_topdecile_at_D3,0.4938,age~8h
+A2.4_frac_adultHC_topdecile_at_D4,0.5829,age~16h
+A2.4_frac_adultHC_topdecile_at_D5,0.6061,age~23h
+A2.4_frac_adultHC_topdecile_at_D6,0.6203,age~27h
+A2.4_frac_adultHC_topdecile_at_D8,1.0,age~45h
+A2.4_within-comm_frac_topdecile_at_birth,0.1716,
+A2.4_within-family_frac_topdecile_at_birth,0.2523,
+A2.4_frac_HCsyn_contact_precedes,0.8515,n=505
+A2.4_frac_lateSyn_had_earlyContact,0.4583,n=120
+A2.4_frac_HCnonsyn_early_contact,0.8929,n=56
+A2.5_HC_explained_by_comm,0.6988,CIRCULAR
+A2.5_HC_explained_by_family,0.0553,ANATOMICAL
+A2.5_HC_explained_by_either,0.7059,
+A2.5_HC_unexplained_residual,0.2941,neither family nor community
+A2.5_resid_var_after_all,0.7641,fraction logc variance unexplained (in-sample)
+A2.2_perm_same_family_z,9.71,obs=0.0553 null=0.0117 p=0.0005 ANATOMICAL non-circular
+A2.2_perm_headmotor_z,15.37,obs=0.1337 null=0.0226 p=0.0005 ANATOMICAL non-circular

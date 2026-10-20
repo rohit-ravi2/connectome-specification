@@ -1,0 +1,23 @@
+metric,value,note
+prereg_flip_success,"ratio_L1 in [0.35,0.60] AND bimodal_L1>=0.80",binding
+n_nodes,196,
+n_directed_opp_pairs,16410,
+mp_steps,2,locality radius
+hidden_dim,24,
+recon_adult_AUC,0.8963,READOUT not success
+real_theta_L1_bimodal_frac,0.9316,target ~0.90
+gen_theta_L1_bimodal_frac,0.8744,emergent
+gen_theta_adult_bimodal_frac,0.6757,emergent
+real_dispersion_W7W8_thispipe,0.5168,apples-to-apples baseline
+real_dispersion_L1_4rep,0.435,gate ref ~0.47
+gen_dispersion_adult,0.936,"emergent, un-fit"
+gen_dispersion_adult_sd,0.0341,
+gen_dispersion_L1,0.9911,"emergent, un-fit"
+gen_dispersion_L1_sd,0.0359,
+gen_brier_adult,0.0749,held-out cross-animal
+gen_brier_L1,0.0394,
+real_brier_W8,0.0684,
+true_gen_dispersion_adult,1.0024,~1.0 control
+bimodal_theta_emerges_unfit,Y,
+dispersion_emerges_unfit,N,
+VERDICT,"NEGATIVE (reconstructs, no emergent canalization)",

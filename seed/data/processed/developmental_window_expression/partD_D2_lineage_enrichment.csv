@@ -1,0 +1,10 @@
+test,dev_var,target,controls,logit_coef_perSD,OR_perSD,ci_lo,ci_hi,sig_95
+D2,birth_diff,T_L1_repro,contact_area+contact_cn,-1.5678,0.2085,-1.8393,-1.3855,True
+D2,birth_diff,T_preadult_persist,contact_area+contact_cn,-0.5435,0.5807,-0.6415,-0.4445,True
+D2,birth_diff,T_first_L1,contact_area+contact_cn,-0.969,0.3795,-1.1436,-0.831,True
+D2,lin_dist_i,T_L1_repro,contact_area+contact_cn,0.0058,1.0058,-0.0771,0.0867,False
+D2,lin_dist_i,T_preadult_persist,contact_area+contact_cn,0.0037,1.0037,-0.0793,0.0778,False
+D2,lin_dist_i,T_first_L1,contact_area+contact_cn,-0.0727,0.9299,-0.1507,0.0013,False
+D2,same_founder,T_L1_repro,contact_area+contact_cn,-0.0622,0.9397,-0.158,0.0222,False
+D2,same_founder,T_preadult_persist,contact_area+contact_cn,-0.0003,0.9997,-0.0905,0.0833,False
+D2,same_founder,T_first_L1,contact_area+contact_cn,-0.074,0.9287,-0.1689,0.0083,False

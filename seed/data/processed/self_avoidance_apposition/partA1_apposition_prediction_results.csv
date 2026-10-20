@@ -1,0 +1,9 @@
+feature_set,n_features,reg_R2,reg_n,cls_AUC,cls_n
+F0_allometry,6,0.0088,1572,0.6277,1572
+F0+F1_timing,11,0.0402,1572,0.6466,1572
+F0+F1+F2_lineage,12,0.0486,1572,0.659,1572
+F0..F3_identity,17,0.0733,1572,0.6908,1572
+F0..F4_morphology,23,0.0964,1572,0.7172,1572
+F4_morph_only,6,0.0369,1572,0.6248,1572
+F1_timing_only,5,0.0241,1572,0.5852,1572
+F3_identity_only,6,0.0461,1572,0.642,1572

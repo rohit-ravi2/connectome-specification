@@ -1,0 +1,24 @@
+======================================================================================
+STAGE 2 — single-hypothesis lock (pre-registered direction, dual null + contact kill-shot)
+======================================================================================
+
+Notch-Delta LIN-12~LAG-2  (pre-registered: enriched-FP, flat-FN)  n=36
+   FP: expr-perm-z=4.3  region-z=4.5  contact-resid-z=4.7
+   FN (should be flat): expr-perm-z=None
+   => LOCKED (both nulls>2, direction holds, survives contact)
+
+MIG-13~MIG-6  (pre-registered: enriched-FP, flat-FN)  n=56
+   FP: expr-perm-z=4.1  region-z=2.8  contact-resid-z=4.7
+   FN (should be flat): expr-perm-z=None
+   => LOCKED (both nulls>2, direction holds, survives contact)
+
+NDNF-1~EGL-15  (pre-registered: enriched-FP, flat-FN)  n=397
+   FP: expr-perm-z=2.3  region-z=2.0  contact-resid-z=2.3
+   FN (should be flat): expr-perm-z=0.4
+   => LOCKED (both nulls>2, direction holds, survives contact)
+
+Slit-Robo SLT-1~SAX-3  (pre-registered: enriched-FN, flat-FP)  n=50
+   FN: expr-perm-z=3.4  region-z=2.0  contact-resid-z=4.2
+   FP (should be flat): expr-perm-z=0.6
+   => LOCKED (both nulls>2, direction holds, survives contact)
+======================================================================================

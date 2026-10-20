@@ -1,0 +1,10 @@
+contact_target,predictor,cv_r2_mean,cv_r2_sd,n_splits
+log_area,lineage_birth,-0.0269,0.0376,15
+log_area,dev_expr,-0.0092,0.0436,15
+log_area,both,-0.0329,0.0584,15
+contact_cn,lineage_birth,-0.043,0.0728,15
+contact_cn,dev_expr,0.2983,0.1071,15
+contact_cn,both,0.2605,0.1182,15
+contact_cos,lineage_birth,-0.0134,0.0541,15
+contact_cos,dev_expr,0.0258,0.0795,15
+contact_cos,both,0.0168,0.0962,15

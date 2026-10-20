@@ -1,0 +1,13 @@
+base,edge_class,n_edges,geff_class_pct_drop,geff_null_pct_drop,geff_p,geff_more_disruptive,smreach_class_lost,smreach_null_lost,smreach_p,smreach_more_disruptive
+strong_core1(1469e),strong_core2(subset),903,52.39,61.37,1.0,False,0.2195,0.2271,0.476,False
+strong_core1(1469e),strong_core4(subset),522,20.93,33.49,1.0,False,0.0732,0.045,0.476,True
+strong_core1(1469e),preadult_persistent,999,60.8,73.57,1.0,False,0.2195,0.3771,0.905,False
+strong_core1(1469e),sensory->inter,211,21.2,9.16,0.048,True,0.4797,0.0042,0.048,True
+strong_core1(1469e),post_embryonic_integration,185,20.21,7.3,0.048,True,0.3496,0.0054,0.048,True
+strong_core1(1469e),NT_ACh,596,57.65,35.35,0.048,True,0.4126,0.1244,0.048,True
+strong_core2(903e),strong_core2(subset),903,100.0,100.0,1.0,False,1.0,1.0,1.0,False
+strong_core2(903e),strong_core4(subset),522,76.14,77.5,0.667,False,0.7419,0.6767,0.333,True
+strong_core2(903e),preadult_persistent,773,95.98,97.11,1.0,False,0.9634,0.9898,1.0,False
+strong_core2(903e),sensory->inter,144,35.87,18.02,0.048,True,0.8862,0.0774,0.048,True
+strong_core2(903e),post_embryonic_integration,88,14.7,9.07,0.048,True,0.3496,0.041,0.048,True
+strong_core2(903e),NT_ACh,356,77.09,43.98,0.048,True,0.7236,0.3296,0.048,True

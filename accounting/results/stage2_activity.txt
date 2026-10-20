@@ -1,0 +1,18 @@
+====================================================================================
+STAGE 2 — activity null hierarchy (scored vs Stage-1 corrected Cook target 0.746)
+====================================================================================
+  STATIC ceiling: F1(W)=0.566 | Cook-AUC-of-selection ref
+  [decomposition] r_geo R2 = 0.082 (rate explained by degree/triangle/spatial) | r_act leak into features R2=0.000
+
+  -- 2a: real vs plain-rate-scramble --
+    beta=1.0: real F1(W)=0.569 F1(Cook)=0.552 | plain-scramble F1(W)=0.565 | real-plain Δ=+0.004
+    beta=2.0: real F1(W)=0.564 F1(Cook)=0.550 | plain-scramble F1(W)=0.571 | real-plain Δ=-0.007
+
+  -- 2b: real vs DEGREE-PRESERVING rate-scramble (decisive) --
+    beta=1.0: real F1(W)=0.570/Cook 0.552 | deg-pres-scramble F1(W)=0.567/Cook 0.554 | real-degpres Δ(W)=+0.002 Δ(Cook)=-0.002
+    beta=2.0: real F1(W)=0.573/Cook 0.555 | deg-pres-scramble F1(W)=0.569/Cook 0.554 | real-degpres Δ(W)=+0.003 Δ(Cook)=+0.001
+
+====================================================================================
+VERDICT: real≈plain-rate-scramble -> no rate signal at all. Activity elimination confirmed.
+  (scored vs corrected target 0.746; pre-registered call was: real≈degree-preserving = elimination confirmed.)
+====================================================================================

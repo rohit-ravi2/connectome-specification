@@ -1,0 +1,46 @@
+{
+  "c1": {
+    "n_contacting": 5603,
+    "categories": {
+      "nonsyn": 3566,
+      "forward": 919,
+      "backward": 672,
+      "reciprocal": 446
+    },
+    "recip_median_c": 2361840.0,
+    "uni_median_c": 921360.0,
+    "recip_gt_uni_p": 3.83831974894304e-51,
+    "n_recip": 446,
+    "n_uni": 1591,
+    "direction_auc": 0.9283206024831839,
+    "direction_auc_sd": 0.013305200403473823,
+    "direction_auc_nodeg": 0.7502108060884283,
+    "direction_auc_nodeg_sd": 0.024516392476259762,
+    "n_unidirectional": 1591,
+    "single_feat_auc": {
+      "d_chem_out": 0.827,
+      "d_chem_in": 0.83,
+      "d_gap_deg": 0.69,
+      "d_modrank": 0.542,
+      "d_sens": 0.629,
+      "d_cmd": 0.666,
+      "d_mono": 0.571
+    },
+    "modality_ff_frac": 0.5953177257525084,
+    "modality_ff_p": 3.5833460342144797e-06,
+    "n_rankdiff": 598
+  },
+  "c2": {
+    "n_lowcontact_strong": 10,
+    "n_strong": 859,
+    "robust": 7,
+    "meas_limited": 3,
+    "pct_robust": 70.0,
+    "contact_shrank": 5,
+    "high_eff": 10,
+    "command_pairs": 5,
+    "both_command": 1,
+    "cmd_OR": 5.107913669064748,
+    "cmd_p": 0.01526916741911082
+  }
+}

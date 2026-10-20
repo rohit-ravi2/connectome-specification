@@ -1,0 +1,4 @@
+target,base_gbm,d_REG_all_gbm,d_EXPR_snapshot_gbm,d_GRN_TFact,d_TerminalSelector,d_ModuleScores,z_neuron_shuffle,p_neuron_shuffle,z_random_gene,p_random_gene,reg_lift_no_contact,reg_lift_after_contact,contact_mediated_fraction,contactstrat_mean_add,beats_expression,beats_neuron_shuffle,beats_random_gene
+L1_reproducible,0.791,0.0238,0.0112,0.0153,0.0089,0.0253,5.6,0.048,-0.94,0.905,0.0337,0.006,0.823,0.092,True,True,False
+preadult_persistent,0.7472,0.022,0.007,0.0088,0.0018,0.0209,7.88,0.048,-0.93,0.81,0.0505,0.0133,0.737,0.0633,True,True,False
+first_synapse_L1,0.7384,0.0427,0.0097,0.0175,0.0077,0.0344,8.93,0.048,1.53,0.095,0.0321,0.0061,0.808,0.076,True,True,False

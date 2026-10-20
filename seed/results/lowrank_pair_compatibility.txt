@@ -1,0 +1,25 @@
+N=5030 contacting pairs | reproducible-core 1257 (25.0%) | base H=4080 bits
+
+====================================================================================
+NOISE CEILING (adult-7 <-> adult-8 replicate agreement)
+====================================================================================
+  P(adult8 edge | adult7 edge)=0.753   P(adult8 edge | adult7 no-edge)=0.118
+  CEILING AUC (one adult predicts the other): 7->8 0.819 | 8->7 0.818  (~max any model can reach)
+  geometry predicting a single fresh animal (adult8): AUC 0.816
+  => if geometry AUC ~ ceiling AUC, the reproducible-core 'residual' is animal-to-animal NOISE.
+
+====================================================================================
+GEOMETRY + IDENTITY + LOW-RANK COMPATIBILITY (held-out bits, AUC)
+====================================================================================
+  geometry only                      bits=   3086  AUC=0.8282
+  geometry + identity                bits=   3006  AUC=0.8392
+  geometry + identity + rank-2       bits=   3006  AUC=0.8392  <|U|>=0.001
+  geometry + identity + rank-4       bits=   3006  AUC=0.8392  <|U|>=0.001
+  geometry + identity + rank-8       bits=   3006  AUC=0.8392  <|U|>=0.001
+  geometry + identity + rank-16      bits=   3006  AUC=0.8392  <|U|>=0.001
+
+====================================================================================
+VERDICT: NO PAIRWISE CODE — low-rank compatibility adds ~nothing over geometry+identity (decision-rule 5)
+  geometry 3086b/AUC0.828 -> +identity 3006b/AUC0.839 -> best low-rank 3006b (lift 0b = 0.0% of base)
+  ceiling AUC (replicate) ~0.819 vs geometry-on-fresh-animal 0.816
+====================================================================================
